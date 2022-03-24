@@ -2,6 +2,8 @@ DOC FIRMATA:
 
 https://github.com/SolidSoils/Arduino
 
+DOC FIRMATA SENSORS:
+https://www.home-assistant.io/integrations/firmata/#sensors
 
 
 
