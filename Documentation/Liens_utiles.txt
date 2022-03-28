@@ -5,7 +5,8 @@ https://github.com/SolidSoils/Arduino
 DOC FIRMATA SENSORS:
 https://www.home-assistant.io/integrations/firmata/#sensors
 
-
+DOC APPLICATION RESEAU C#:
+https://docs.microsoft.com/fr-FR/dotnet/api/system.net.webclient?view=net-6.0
 
 DOC VIDEO :
 
