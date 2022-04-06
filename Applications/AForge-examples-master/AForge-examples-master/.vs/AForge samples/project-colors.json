@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1915d3ad-5078-43a6-a124-bd3b172eb8c5": {
+      "ProjectGuid": "1915d3ad-5078-43a6-a124-bd3b172eb8c5",
+      "DisplayName": "AForge.WindowsForms",
+      "ColorIndex": 0
+    },
+    "cb3cbcc6-3660-490a-b7dd-5198e508beb0": {
+      "ProjectGuid": "cb3cbcc6-3660-490a-b7dd-5198e508beb0",
+      "DisplayName": "WpfPostItDetector",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
