@@ -1,0 +1,17 @@
+DOC FIRMATA:
+
+https://github.com/SolidSoils/Arduino
+
+DOC FIRMATA SENSORS:
+https://www.home-assistant.io/integrations/firmata/#sensors
+
+DOC APPLICATION RESEAU C#:
+https://docs.microsoft.com/fr-FR/dotnet/api/system.net.webclient?view=net-6.0
+
+DOC VIDEO :
+
+https://www.youtube.com/watch?v=Thu6DXTnM_M
+
+https://www.youtube.com/watch?v=Wje_qSW9xZ8
+https://github.com/mesta1/AForge-examples
+
