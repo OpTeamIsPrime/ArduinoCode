@@ -47,15 +47,7 @@ namespace IsPrimeAppV4
 
         private void BtnDashboard_Click(object sender, EventArgs e)
         {
-               
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            Form2 form = new Form2();
-            form.Show();
-            //openChilForm(new Form2());
-            
+            hideSubMenu();
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -137,6 +129,20 @@ namespace IsPrimeAppV4
         private void btnUser_Click(object sender, EventArgs e)
         {
             lbUser.Text = txtUser.Text;
+        }
+
+        private void buttonlunchA_Click(object sender, EventArgs e)
+        {
+            Form2 form = new Form2();
+            form.Show();
+            //openChilForm(new Form2());
+        }
+
+        private void buttonLunchM_Click(object sender, EventArgs e)
+        {
+            Form2 form = new Form2();
+            form.Show();
+            //openChilForm(new Form2());
         }
     }
 }

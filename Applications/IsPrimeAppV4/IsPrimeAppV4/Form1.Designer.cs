@@ -30,11 +30,14 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormBase));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnManual = new System.Windows.Forms.Button();
-            this.btnAI = new System.Windows.Forms.Button();
             this.panelManual = new System.Windows.Forms.Panel();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.buttonLunchM = new System.Windows.Forms.Button();
+            this.btnManual = new System.Windows.Forms.Button();
+            this.panelAI = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.buttonlunchA = new System.Windows.Forms.Button();
+            this.btnAI = new System.Windows.Forms.Button();
             this.BtnDashboard = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lbUser = new System.Windows.Forms.Label();
@@ -51,25 +54,22 @@
             this.btnPassword = new System.Windows.Forms.Button();
             this.txtBoxPassword = new System.Windows.Forms.TextBox();
             this.brnQuit = new System.Windows.Forms.Button();
-            this.panelAI = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panelManual.SuspendLayout();
+            this.panelAI.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.panelAI.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.panel1.Controls.Add(this.panelManual);
             this.panel1.Controls.Add(this.btnManual);
             this.panel1.Controls.Add(this.panelAI);
             this.panel1.Controls.Add(this.btnAI);
-            this.panel1.Controls.Add(this.panelManual);
             this.panel1.Controls.Add(this.BtnDashboard);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
@@ -78,6 +78,52 @@
             this.panel1.Size = new System.Drawing.Size(200, 568);
             this.panel1.TabIndex = 0;
             // 
+            // panelManual
+            // 
+            this.panelManual.BackColor = System.Drawing.Color.RoyalBlue;
+            this.panelManual.Controls.Add(this.button4);
+            this.panelManual.Controls.Add(this.buttonLunchM);
+            this.panelManual.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelManual.Location = new System.Drawing.Point(0, 449);
+            this.panelManual.Name = "panelManual";
+            this.panelManual.Size = new System.Drawing.Size(200, 115);
+            this.panelManual.TabIndex = 13;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.RoyalBlue;
+            this.button4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button4.ForeColor = System.Drawing.SystemColors.Control;
+            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.Location = new System.Drawing.Point(0, 53);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(200, 55);
+            this.button4.TabIndex = 2;
+            this.button4.Text = "Settings";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // buttonLunchM
+            // 
+            this.buttonLunchM.BackColor = System.Drawing.Color.RoyalBlue;
+            this.buttonLunchM.Dock = System.Windows.Forms.DockStyle.Top;
+            this.buttonLunchM.FlatAppearance.BorderSize = 0;
+            this.buttonLunchM.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonLunchM.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.buttonLunchM.ForeColor = System.Drawing.SystemColors.Control;
+            this.buttonLunchM.Image = ((System.Drawing.Image)(resources.GetObject("buttonLunchM.Image")));
+            this.buttonLunchM.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonLunchM.Location = new System.Drawing.Point(0, 0);
+            this.buttonLunchM.Name = "buttonLunchM";
+            this.buttonLunchM.Size = new System.Drawing.Size(200, 53);
+            this.buttonLunchM.TabIndex = 1;
+            this.buttonLunchM.Text = "        LunchRobot";
+            this.buttonLunchM.UseVisualStyleBackColor = false;
+            this.buttonLunchM.Click += new System.EventHandler(this.buttonLunchM_Click);
+            // 
             // btnManual
             // 
             this.btnManual.Dock = System.Windows.Forms.DockStyle.Top;
@@ -85,6 +131,7 @@
             this.btnManual.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnManual.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnManual.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnManual.Image = ((System.Drawing.Image)(resources.GetObject("btnManual.Image")));
             this.btnManual.Location = new System.Drawing.Point(0, 385);
             this.btnManual.Name = "btnManual";
             this.btnManual.Size = new System.Drawing.Size(200, 64);
@@ -93,6 +140,50 @@
             this.btnManual.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnManual.UseVisualStyleBackColor = true;
             this.btnManual.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // panelAI
+            // 
+            this.panelAI.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.panelAI.Controls.Add(this.button2);
+            this.panelAI.Controls.Add(this.buttonlunchA);
+            this.panelAI.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelAI.Location = new System.Drawing.Point(0, 285);
+            this.panelAI.Name = "panelAI";
+            this.panelAI.Size = new System.Drawing.Size(200, 100);
+            this.panelAI.TabIndex = 7;
+            // 
+            // button2
+            // 
+            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button2.ForeColor = System.Drawing.SystemColors.Control;
+            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.Location = new System.Drawing.Point(0, 52);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(200, 42);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "Settings";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // buttonlunchA
+            // 
+            this.buttonlunchA.Dock = System.Windows.Forms.DockStyle.Top;
+            this.buttonlunchA.FlatAppearance.BorderSize = 0;
+            this.buttonlunchA.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonlunchA.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.buttonlunchA.ForeColor = System.Drawing.SystemColors.Control;
+            this.buttonlunchA.Image = ((System.Drawing.Image)(resources.GetObject("buttonlunchA.Image")));
+            this.buttonlunchA.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonlunchA.Location = new System.Drawing.Point(0, 0);
+            this.buttonlunchA.Name = "buttonlunchA";
+            this.buttonlunchA.Size = new System.Drawing.Size(200, 52);
+            this.buttonlunchA.TabIndex = 1;
+            this.buttonlunchA.Text = "        LunchRobot";
+            this.buttonlunchA.UseVisualStyleBackColor = true;
+            this.buttonlunchA.Click += new System.EventHandler(this.buttonlunchA_Click);
             // 
             // btnAI
             // 
@@ -110,50 +201,6 @@
             this.btnAI.Text = "   AI mode";
             this.btnAI.UseVisualStyleBackColor = true;
             this.btnAI.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // panelManual
-            // 
-            this.panelManual.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.panelManual.Controls.Add(this.button7);
-            this.panelManual.Controls.Add(this.button8);
-            this.panelManual.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelManual.Location = new System.Drawing.Point(0, 457);
-            this.panelManual.Name = "panelManual";
-            this.panelManual.Size = new System.Drawing.Size(200, 111);
-            this.panelManual.TabIndex = 6;
-            // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.button7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button7.ForeColor = System.Drawing.SystemColors.Control;
-            this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
-            this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.Location = new System.Drawing.Point(0, 53);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(200, 55);
-            this.button7.TabIndex = 1;
-            this.button7.Text = "Settings";
-            this.button7.UseVisualStyleBackColor = false;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
-            // 
-            // button8
-            // 
-            this.button8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button8.FlatAppearance.BorderSize = 0;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button8.ForeColor = System.Drawing.SystemColors.Control;
-            this.button8.Location = new System.Drawing.Point(0, 0);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(200, 53);
-            this.button8.TabIndex = 0;
-            this.button8.Text = "LunchRobot";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // BtnDashboard
             // 
@@ -251,9 +298,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnUser.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnUser.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnUser.Location = new System.Drawing.Point(492, 417);
+            this.btnUser.Location = new System.Drawing.Point(492, 419);
             this.btnUser.Name = "btnUser";
-            this.btnUser.Size = new System.Drawing.Size(95, 33);
+            this.btnUser.Size = new System.Drawing.Size(95, 30);
             this.btnUser.TabIndex = 12;
             this.btnUser.Text = "Accept";
             this.btnUser.UseVisualStyleBackColor = true;
@@ -296,7 +343,7 @@
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(271, 69);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(192, 180);
+            this.pictureBox2.Size = new System.Drawing.Size(192, 80);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 8;
             this.pictureBox2.TabStop = false;
@@ -351,46 +398,6 @@
             this.brnQuit.UseVisualStyleBackColor = true;
             this.brnQuit.Click += new System.EventHandler(this.brnQuit_Click);
             // 
-            // panelAI
-            // 
-            this.panelAI.Controls.Add(this.button2);
-            this.panelAI.Controls.Add(this.button1);
-            this.panelAI.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelAI.Location = new System.Drawing.Point(0, 285);
-            this.panelAI.Name = "panelAI";
-            this.panelAI.Size = new System.Drawing.Size(200, 100);
-            this.panelAI.TabIndex = 7;
-            // 
-            // button1
-            // 
-            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.SystemColors.Control;
-            this.button1.Location = new System.Drawing.Point(0, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(200, 52);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "LunchRobot";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.SystemColors.Control;
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(0, 52);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(200, 42);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Settings";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
             // FormBase
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -407,13 +414,13 @@
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
             this.panelManual.ResumeLayout(false);
+            this.panelAI.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.panelAI.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -421,9 +428,6 @@
         #endregion
 
         private Panel panel1;
-        private Panel panelManual;
-        private Button button7;
-        private Button button8;
         private Button btnManual;
         private Button btnAI;
         private Button BtnDashboard;
@@ -445,6 +449,9 @@
         private TextBox txtUser;
         private Panel panelAI;
         private Button button2;
-        private Button button1;
+        private Button buttonlunchA;
+        private Panel panelManual;
+        private Button button4;
+        private Button buttonLunchM;
     }
 }
