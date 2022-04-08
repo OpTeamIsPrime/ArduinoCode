@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rpuig\\Desktop\\Ecole\\Projet\\ArduinoCode\\Applications\\IsPrimeAppV4\\IsPrimeAppV4\\IsPrimeAppV4.csproj": {}
+    "C:\\Users\\Lepoisson300\\Desktop\\Ecole\\Epita Sup 1\\Projet S2\\ArduinoCode\\Applications\\IsPrimeAppV4\\IsPrimeAppV4\\IsPrimeAppV4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rpuig\\Desktop\\Ecole\\Projet\\ArduinoCode\\Applications\\IsPrimeAppV4\\IsPrimeAppV4\\IsPrimeAppV4.csproj": {
+    "C:\\Users\\Lepoisson300\\Desktop\\Ecole\\Epita Sup 1\\Projet S2\\ArduinoCode\\Applications\\IsPrimeAppV4\\IsPrimeAppV4\\IsPrimeAppV4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rpuig\\Desktop\\Ecole\\Projet\\ArduinoCode\\Applications\\IsPrimeAppV4\\IsPrimeAppV4\\IsPrimeAppV4.csproj",
+        "projectUniqueName": "C:\\Users\\Lepoisson300\\Desktop\\Ecole\\Epita Sup 1\\Projet S2\\ArduinoCode\\Applications\\IsPrimeAppV4\\IsPrimeAppV4\\IsPrimeAppV4.csproj",
         "projectName": "IsPrimeAppV4",
-        "projectPath": "C:\\Users\\rpuig\\Desktop\\Ecole\\Projet\\ArduinoCode\\Applications\\IsPrimeAppV4\\IsPrimeAppV4\\IsPrimeAppV4.csproj",
-        "packagesPath": "C:\\Users\\rpuig\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rpuig\\Desktop\\Ecole\\Projet\\ArduinoCode\\Applications\\IsPrimeAppV4\\IsPrimeAppV4\\obj\\",
+        "projectPath": "C:\\Users\\Lepoisson300\\Desktop\\Ecole\\Epita Sup 1\\Projet S2\\ArduinoCode\\Applications\\IsPrimeAppV4\\IsPrimeAppV4\\IsPrimeAppV4.csproj",
+        "packagesPath": "C:\\Users\\Lepoisson300\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lepoisson300\\Desktop\\Ecole\\Epita Sup 1\\Projet S2\\ArduinoCode\\Applications\\IsPrimeAppV4\\IsPrimeAppV4\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\rpuig\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lepoisson300\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -71,7 +71,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

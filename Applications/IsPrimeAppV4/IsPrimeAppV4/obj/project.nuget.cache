@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "jFIhFLSaEYKPntYYKNhAAE/GSNYZnoMgcmD9k/foJ5ldNYvy6CIq+qu1LmTLEak1n9JGcg9JCJZVO2BLc1W7xg==",
+  "dgSpecHash": "oudpJagVVsR2quvz8hwnNLp9CI8z4GNOd75SVSFUEPjyXMfnhaDi4cbYuYdY5SCKRfponNO0Z/pUw6EhrsuT3g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rpuig\\Desktop\\Ecole\\Projet\\ArduinoCode\\Applications\\IsPrimeAppV4\\IsPrimeAppV4\\IsPrimeAppV4.csproj",
+  "projectFilePath": "C:\\Users\\Lepoisson300\\Desktop\\Ecole\\Epita Sup 1\\Projet S2\\ArduinoCode\\Applications\\IsPrimeAppV4\\IsPrimeAppV4\\IsPrimeAppV4.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\rpuig\\.nuget\\packages\\aforge\\2.2.5\\aforge.2.2.5.nupkg.sha512",
-    "C:\\Users\\rpuig\\.nuget\\packages\\aforge.video\\2.2.5\\aforge.video.2.2.5.nupkg.sha512",
-    "C:\\Users\\rpuig\\.nuget\\packages\\aforge.video.directshow\\2.2.5\\aforge.video.directshow.2.2.5.nupkg.sha512"
+    "C:\\Users\\Lepoisson300\\.nuget\\packages\\aforge\\2.2.5\\aforge.2.2.5.nupkg.sha512",
+    "C:\\Users\\Lepoisson300\\.nuget\\packages\\aforge.video\\2.2.5\\aforge.video.2.2.5.nupkg.sha512",
+    "C:\\Users\\Lepoisson300\\.nuget\\packages\\aforge.video.directshow\\2.2.5\\aforge.video.directshow.2.2.5.nupkg.sha512"
   ],
   "logs": [
     {
