@@ -44,6 +44,10 @@
               "target": "Package",
               "version": "[2.2.5, )"
             },
+            "AForge.Imaging": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
             "AForge.Video": {
               "target": "Package",
               "version": "[2.2.5, )"

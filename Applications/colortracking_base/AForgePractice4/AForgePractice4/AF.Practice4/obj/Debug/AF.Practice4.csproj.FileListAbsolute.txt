@@ -62,3 +62,21 @@ C:\Users\rpuig\Downloads\AForgePractice4\AForgePractice4\AForgePractice4\AF.Prac
 C:\Users\rpuig\Downloads\AForgePractice4\AForgePractice4\AForgePractice4\AF.Practice4\obj\Debug\AF.Practice4.csproj.CopyComplete
 C:\Users\rpuig\Downloads\AForgePractice4\AForgePractice4\AForgePractice4\AF.Practice4\obj\Debug\AF.Practice4.exe
 C:\Users\rpuig\Downloads\AForgePractice4\AForgePractice4\AForgePractice4\AF.Practice4\obj\Debug\AF.Practice4.pdb
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\colortracking_base\AForgePractice4\AForgePractice4\AF.Practice4\bin\Debug\AF.Practice4.exe.config
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\colortracking_base\AForgePractice4\AForgePractice4\AF.Practice4\bin\Debug\AF.Practice4.exe
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\colortracking_base\AForgePractice4\AForgePractice4\AF.Practice4\bin\Debug\AF.Practice4.pdb
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\colortracking_base\AForgePractice4\AForgePractice4\AF.Practice4\bin\Debug\Module.AForge.dll
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\colortracking_base\AForgePractice4\AForgePractice4\AF.Practice4\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\colortracking_base\AForgePractice4\AForgePractice4\AF.Practice4\bin\Debug\AForge.Video.dll
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\colortracking_base\AForgePractice4\AForgePractice4\AF.Practice4\bin\Debug\AForge.Imaging.dll
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\colortracking_base\AForgePractice4\AForgePractice4\AF.Practice4\bin\Debug\AForge.dll
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\colortracking_base\AForgePractice4\AForgePractice4\AF.Practice4\bin\Debug\Module.AForge.pdb
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\colortracking_base\AForgePractice4\AForgePractice4\AF.Practice4\obj\Debug\AF.Practice4.csproj.AssemblyReference.cache
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\colortracking_base\AForgePractice4\AForgePractice4\AF.Practice4\obj\Debug\AF.Practice4.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\colortracking_base\AForgePractice4\AForgePractice4\AF.Practice4\obj\Debug\AF.Practice4.Properties.Resources.resources
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\colortracking_base\AForgePractice4\AForgePractice4\AF.Practice4\obj\Debug\AF.Practice4.csproj.GenerateResource.cache
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\colortracking_base\AForgePractice4\AForgePractice4\AF.Practice4\obj\Debug\AF.Practice4.csproj.CoreCompileInputs.cache
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\colortracking_base\AForgePractice4\AForgePractice4\AF.Practice4\obj\Debug\AF.Practice4.csproj.CopyComplete
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\colortracking_base\AForgePractice4\AForgePractice4\AF.Practice4\obj\Debug\AF.Practice4.exe
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\colortracking_base\AForgePractice4\AForgePractice4\AF.Practice4\obj\Debug\AF.Practice4.pdb
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\colortracking_base\AForgePractice4\AForgePractice4\AF.Practice4\obj\Debug\AF.Practice4.MainForm.resources

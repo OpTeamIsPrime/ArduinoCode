@@ -13,21 +13,15 @@ using AForge.Video;
 
 namespace IsPrimeAppV4
 {
-    public partial class Form2 : Form
+    public partial class FormCamBase : Form
     {
-        public Form2()
+        public FormCamBase()
         {
             InitializeComponent();
         }
         FilterInfoCollection filterInfoCollection;
         VideoCaptureDevice videoCaptureDevice;
 
-
-
-       /* private void brnQuit_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }*/
 
         private void Button3_Click(object sender, EventArgs e)
         {
@@ -61,7 +55,6 @@ namespace IsPrimeAppV4
         {
            // this.Close();
         }
-
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
