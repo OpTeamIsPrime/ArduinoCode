@@ -57,39 +57,7 @@ namespace IsPrimeAppV4
             cboCamera.SelectedIndex = 0;
             videoCaptureDevice = new VideoCaptureDevice();
         }
-       /* public void NewFramEventHandler(object sender, Bitmap bitmap)
-        {
-            try
-            {
-                if (!ActivateColorTracking)
-                {
-                    var clone = (Bitmap)bitmap.Clone();
-                    pic.Image = clone;
-                    return;
-                }
 
-                if (ShowOrjinalOrProcessImage)
-                {
-                    var processedOrjinalBitmap = bitmap.FindObjectsOnOrjinal(penColor: Color.Red, filterColor: Color.FromArgb(Red, Green, Blue), multiple: MultiOrSingleTracking);
-                    pic.Image = processedOrjinalBitmap;
-                    return;
-                }
-
-                var filteredBitmap = bitmap.EuclideanFilter(Color.FromArgb(Red, Green, Blue));
-                var processedFilteredBitmap = filteredBitmap.FindObjectsOnFiltered(Color.Red, multiple: MultiOrSingleTracking);
-                pic.Image = processedFilteredBitmap;
-
-            }
-            catch
-            {
-                //ignored
-            }
-        }*/
-
-        private void Form2_FormClosing(object sender, FormClosingEventArgs e)
-        {
-           // this.Close();
-        }
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();

@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "C14Gb7l7xxMC7RxSwmkAXM/xmJFvVmGMfOMplhRVFL3rpDj4Nk/PYEljRBw9WeI67F11bQlipIpkmtsb93/ztg==",
+  "dgSpecHash": "Qxmw+X4HkIZ0cbu2UgDbOKCDFy4T+yjuNJWgHRrIxnFalngu7hIY+deA3ahUSGekk5l80C6na7B0YHYg2i13Dw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rpuig\\Desktop\\Ecole\\Projet\\ArduinoCode\\Applications\\IsPrimeAppV4\\IsPrimeAppV4\\IsPrimeAppV4.csproj",
+  "projectFilePath": "C:\\Users\\Lepoisson300\\Desktop\\Ecole\\Epita Sup 1\\Projet S2\\ArduinoCode\\Applications\\IsPrimeAppV4\\IsPrimeAppV4\\IsPrimeAppV4.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\rpuig\\.nuget\\packages\\aforge\\2.2.5\\aforge.2.2.5.nupkg.sha512",
-    "C:\\Users\\rpuig\\.nuget\\packages\\aforge.imaging\\2.2.5\\aforge.imaging.2.2.5.nupkg.sha512",
-    "C:\\Users\\rpuig\\.nuget\\packages\\aforge.math\\2.2.5\\aforge.math.2.2.5.nupkg.sha512",
-    "C:\\Users\\rpuig\\.nuget\\packages\\aforge.video\\2.2.5\\aforge.video.2.2.5.nupkg.sha512",
-    "C:\\Users\\rpuig\\.nuget\\packages\\aforge.video.directshow\\2.2.5\\aforge.video.directshow.2.2.5.nupkg.sha512"
+    "C:\\Users\\Lepoisson300\\.nuget\\packages\\aforge\\2.2.5\\aforge.2.2.5.nupkg.sha512",
+    "C:\\Users\\Lepoisson300\\.nuget\\packages\\aforge.imaging\\2.2.5\\aforge.imaging.2.2.5.nupkg.sha512",
+    "C:\\Users\\Lepoisson300\\.nuget\\packages\\aforge.math\\2.2.5\\aforge.math.2.2.5.nupkg.sha512",
+    "C:\\Users\\Lepoisson300\\.nuget\\packages\\aforge.video\\2.2.5\\aforge.video.2.2.5.nupkg.sha512",
+    "C:\\Users\\Lepoisson300\\.nuget\\packages\\aforge.video.directshow\\2.2.5\\aforge.video.directshow.2.2.5.nupkg.sha512"
   ],
   "logs": [
     {
