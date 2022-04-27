@@ -1,0 +1,33 @@
+C:/Users/Zeus/Desktop/Deneks/AForgePractice4/AForgePractice4/Module.AForge/obj/Debug/Module.AForge.csprojResolveAssemblyReference.cache
+C:/Users/Zeus/Desktop/Deneks/AForgePractice4/AForgePractice4/Module.AForge/obj/Debug/Module.AForge.csproj.CoreCompileInputs.cache
+C:/Users/Zeus/Desktop/Deneks/AForgePractice4/AForgePractice4/Module.AForge/bin/Debug/Module.AForge.dll
+C:/Users/Zeus/Desktop/Deneks/AForgePractice4/AForgePractice4/Module.AForge/bin/Debug/Module.AForge.pdb
+C:/Users/Zeus/Desktop/Deneks/AForgePractice4/AForgePractice4/Module.AForge/obj/Debug/Module.AForge.dll
+C:/Users/Zeus/Desktop/Deneks/AForgePractice4/AForgePractice4/Module.AForge/obj/Debug/Module.AForge.pdb
+/home/zeus/Desktop/Desktop-Generals/AForgePractice4/AForgePractice4/Module.AForge/bin/Debug/Module.AForge.dll
+/home/zeus/Desktop/Desktop-Generals/AForgePractice4/AForgePractice4/Module.AForge/bin/Debug/Module.AForge.pdb
+/home/zeus/Desktop/Desktop-Generals/AForgePractice4/AForgePractice4/Module.AForge/obj/Debug/Module.AForge.csprojResolveAssemblyReference.cache
+/home/zeus/Desktop/Desktop-Generals/AForgePractice4/AForgePractice4/Module.AForge/obj/Debug/Module.AForge.csproj.CoreCompileInputs.cache
+/home/zeus/Desktop/Desktop-Generals/AForgePractice4/AForgePractice4/Module.AForge/obj/Debug/Module.AForge.dll
+/home/zeus/Desktop/Desktop-Generals/AForgePractice4/AForgePractice4/Module.AForge/obj/Debug/Module.AForge.pdb
+D:\WDeneks\AForgePractice4\AForgePractice4\Module.AForge\bin\Debug\Module.AForge.dll
+D:\WDeneks\AForgePractice4\AForgePractice4\Module.AForge\bin\Debug\Module.AForge.pdb
+D:\WDeneks\AForgePractice4\AForgePractice4\Module.AForge\obj\Debug\Module.AForge.csprojAssemblyReference.cache
+D:\WDeneks\AForgePractice4\AForgePractice4\Module.AForge\obj\Debug\Module.AForge.csproj.CoreCompileInputs.cache
+D:\WDeneks\AForgePractice4\AForgePractice4\Module.AForge\obj\Debug\Module.AForge.csproj.CopyComplete
+D:\WDeneks\AForgePractice4\AForgePractice4\Module.AForge\obj\Debug\Module.AForge.dll
+D:\WDeneks\AForgePractice4\AForgePractice4\Module.AForge\obj\Debug\Module.AForge.pdb
+C:\Users\rpuig\Downloads\AForgePractice4\AForgePractice4\AForgePractice4\Module.AForge\bin\Debug\Module.AForge.dll
+C:\Users\rpuig\Downloads\AForgePractice4\AForgePractice4\AForgePractice4\Module.AForge\bin\Debug\Module.AForge.pdb
+C:\Users\rpuig\Downloads\AForgePractice4\AForgePractice4\AForgePractice4\Module.AForge\obj\Debug\Module.AForge.csproj.AssemblyReference.cache
+C:\Users\rpuig\Downloads\AForgePractice4\AForgePractice4\AForgePractice4\Module.AForge\obj\Debug\Module.AForge.csproj.CoreCompileInputs.cache
+C:\Users\rpuig\Downloads\AForgePractice4\AForgePractice4\AForgePractice4\Module.AForge\obj\Debug\Module.AForge.csproj.CopyComplete
+C:\Users\rpuig\Downloads\AForgePractice4\AForgePractice4\AForgePractice4\Module.AForge\obj\Debug\Module.AForge.dll
+C:\Users\rpuig\Downloads\AForgePractice4\AForgePractice4\AForgePractice4\Module.AForge\obj\Debug\Module.AForge.pdb
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\colortracking_base\AForgePractice4\AForgePractice4\Module.AForge\bin\Debug\Module.AForge.dll
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\colortracking_base\AForgePractice4\AForgePractice4\Module.AForge\bin\Debug\Module.AForge.pdb
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\colortracking_base\AForgePractice4\AForgePractice4\Module.AForge\obj\Debug\Module.AForge.csproj.AssemblyReference.cache
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\colortracking_base\AForgePractice4\AForgePractice4\Module.AForge\obj\Debug\Module.AForge.csproj.CoreCompileInputs.cache
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\colortracking_base\AForgePractice4\AForgePractice4\Module.AForge\obj\Debug\Module.AForge.csproj.CopyComplete
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\colortracking_base\AForgePractice4\AForgePractice4\Module.AForge\obj\Debug\Module.AForge.dll
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\colortracking_base\AForgePractice4\AForgePractice4\Module.AForge\obj\Debug\Module.AForge.pdb

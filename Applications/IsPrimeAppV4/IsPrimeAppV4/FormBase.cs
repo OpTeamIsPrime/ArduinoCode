@@ -3,6 +3,8 @@ namespace IsPrimeAppV4
 {
     public partial class FormBase : Form
     {
+        
+        
         public FormBase()
         {
             InitializeComponent();
@@ -42,7 +44,7 @@ namespace IsPrimeAppV4
 
         private void button9_Click_1(object sender, EventArgs e)
         {
-            if (txtBoxPassword.Text == "caca")
+            if (txtBoxPassword.Text == "IsPrimeProject")
             { 
            
                 btnPassword.Visible = false;
@@ -96,25 +98,16 @@ namespace IsPrimeAppV4
             form.Show();
         }
 
-
-
-        /*private void buttonlunchA_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            Form2 form = new Form2();
+            SettingForm form = new SettingForm();
             form.Show();
-            //openChilForm(new Form2());
         }
 
-        private void buttonLunchM_Click(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
-            Form2 form = new Form2();
+            SettingForm form = new SettingForm();
             form.Show();
-            //openChilForm(new Form2());
         }
-
-        private void panel4_Paint(object sender, PaintEventArgs e)
-        {
-
-        }*/
     }
 }

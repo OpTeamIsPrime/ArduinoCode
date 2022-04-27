@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using AForge;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using AForge.Video.DirectShow;
@@ -15,6 +16,12 @@ namespace IsPrimeAppV4
 {
     public partial class FormCamBase : Form
     {
+        public bool ActivateColorTracking = false;
+        public bool ShowOrjinalOrProcessImage = true;
+        public bool MultiOrSingleTracking = true;
+        public int Red;
+        public int Green;
+        public int Blue;
         public FormCamBase()
         {
             InitializeComponent();
@@ -50,6 +57,34 @@ namespace IsPrimeAppV4
             cboCamera.SelectedIndex = 0;
             videoCaptureDevice = new VideoCaptureDevice();
         }
+       /* public void NewFramEventHandler(object sender, Bitmap bitmap)
+        {
+            try
+            {
+                if (!ActivateColorTracking)
+                {
+                    var clone = (Bitmap)bitmap.Clone();
+                    pic.Image = clone;
+                    return;
+                }
+
+                if (ShowOrjinalOrProcessImage)
+                {
+                    var processedOrjinalBitmap = bitmap.FindObjectsOnOrjinal(penColor: Color.Red, filterColor: Color.FromArgb(Red, Green, Blue), multiple: MultiOrSingleTracking);
+                    pic.Image = processedOrjinalBitmap;
+                    return;
+                }
+
+                var filteredBitmap = bitmap.EuclideanFilter(Color.FromArgb(Red, Green, Blue));
+                var processedFilteredBitmap = filteredBitmap.FindObjectsOnFiltered(Color.Red, multiple: MultiOrSingleTracking);
+                pic.Image = processedFilteredBitmap;
+
+            }
+            catch
+            {
+                //ignored
+            }
+        }*/
 
         private void Form2_FormClosing(object sender, FormClosingEventArgs e)
         {
