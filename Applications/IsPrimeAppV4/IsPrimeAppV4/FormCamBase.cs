@@ -19,9 +19,9 @@ namespace IsPrimeAppV4
         public bool ActivateColorTracking = false;
         public bool ShowOrjinalOrProcessImage = true;
         public bool MultiOrSingleTracking = true;
-        public int Red;
-        public int Green;
-        public int Blue;
+        public bool Red;
+        public bool Green;
+        public bool Blue;
         public FormCamBase()
         {
             InitializeComponent();
@@ -56,6 +56,51 @@ namespace IsPrimeAppV4
             }
             cboCamera.SelectedIndex = 0;
             videoCaptureDevice = new VideoCaptureDevice();
+        }
+        /* public void NewFramEventHandler(object sender, Bitmap bitmap)
+         {
+             try
+             {
+                 if (!ActivateColorTracking)
+                 {
+                     var clone = (Bitmap)bitmap.Clone();
+                     pic.Image = clone;
+                     return;
+                 }
+
+                 if (ShowOrjinalOrProcessImage)
+                 {
+                     var processedOrjinalBitmap = bitmap.FindObjectsOnOrjinal(penColor: Color.Red, filterColor: Color.FromArgb(Red, Green, Blue), multiple: MultiOrSingleTracking);
+                     pic.Image = processedOrjinalBitmap;
+                     return;
+                 }
+
+                 var filteredBitmap = bitmap.EuclideanFilter(Color.FromArgb(Red, Green, Blue));
+                 var processedFilteredBitmap = filteredBitmap.FindObjectsOnFiltered(Color.Red, multiple: MultiOrSingleTracking);
+                 pic.Image = processedFilteredBitmap;
+
+             }
+             catch
+             {
+                 //ignored
+             }
+         }*/
+        protected override void OnClosing(CancelEventArgs e)
+        {
+            if (videoCaptureDevice != null && videoCaptureDevice.IsRunning)
+            {
+                try
+                {
+                    videoCaptureDevice.Stop();
+                    videoCaptureDevice = null;
+                }
+                catch
+                {
+                    // ignored
+                }
+            }
+
+            base.OnClosing(e);
         }
 
         private void button2_Click(object sender, EventArgs e)

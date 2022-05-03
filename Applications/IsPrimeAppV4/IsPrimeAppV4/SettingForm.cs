@@ -12,6 +12,8 @@ namespace IsPrimeAppV4
 {
     public partial class SettingForm : Form
     {
+        private readonly FormCamBase _mainForm = (FormCamBase)Application.OpenForms["MainForm"];
+
         public SettingForm()
         {
             InitializeComponent();
@@ -22,9 +24,20 @@ namespace IsPrimeAppV4
             this.Close();
         }
 
-        private void btnDash_Click(object sender, EventArgs e)
+        private void btnBlue_Click(object sender, EventArgs e)
         {
-            this.Close();
+            _mainForm.Blue = true;
+
+        }
+
+        private void btnGreen_Click(object sender, EventArgs e)
+        {
+            _mainForm.Green = true;
+        }
+
+        private void btnOrange_Click(object sender, EventArgs e)
+        {
+            _mainForm.Red = true;
         }
     }
 }

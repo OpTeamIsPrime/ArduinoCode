@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SettingForm));
             this.btnQuit = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnDash = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -39,9 +38,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnBlue = new System.Windows.Forms.Button();
+            this.btnGreen = new System.Windows.Forms.Button();
+            this.btnOrange = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -54,7 +53,7 @@
             this.btnQuit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnQuit.FlatAppearance.BorderSize = 0;
             this.btnQuit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnQuit.Location = new System.Drawing.Point(1044, 14);
+            this.btnQuit.Location = new System.Drawing.Point(435, 14);
             this.btnQuit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnQuit.Name = "btnQuit";
             this.btnQuit.Size = new System.Drawing.Size(49, 50);
@@ -73,25 +72,10 @@
             this.pictureBox1.TabIndex = 15;
             this.pictureBox1.TabStop = false;
             // 
-            // btnDash
-            // 
-            this.btnDash.FlatAppearance.BorderSize = 0;
-            this.btnDash.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDash.Image = ((System.Drawing.Image)(resources.GetObject("btnDash.Image")));
-            this.btnDash.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDash.Location = new System.Drawing.Point(13, 219);
-            this.btnDash.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnDash.Name = "btnDash";
-            this.btnDash.Size = new System.Drawing.Size(253, 100);
-            this.btnDash.TabIndex = 16;
-            this.btnDash.Text = "Dashboard";
-            this.btnDash.UseVisualStyleBackColor = true;
-            this.btnDash.Click += new System.EventHandler(this.btnDash_Click);
-            // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(367, 479);
+            this.pictureBox2.Location = new System.Drawing.Point(52, 375);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(119, 108);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -101,7 +85,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(492, 479);
+            this.pictureBox3.Location = new System.Drawing.Point(177, 375);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(122, 108);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -111,7 +95,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(620, 479);
+            this.pictureBox4.Location = new System.Drawing.Point(305, 375);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(122, 108);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -123,7 +107,7 @@
             this.labeltextcolor.AutoSize = true;
             this.labeltextcolor.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labeltextcolor.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.labeltextcolor.Location = new System.Drawing.Point(390, 368);
+            this.labeltextcolor.Location = new System.Drawing.Point(75, 264);
             this.labeltextcolor.Name = "labeltextcolor";
             this.labeltextcolor.Size = new System.Drawing.Size(324, 29);
             this.labeltextcolor.TabIndex = 20;
@@ -132,7 +116,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(404, 434);
+            this.label1.Location = new System.Drawing.Point(89, 330);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(45, 25);
             this.label1.TabIndex = 21;
@@ -141,7 +125,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(523, 434);
+            this.label2.Location = new System.Drawing.Point(208, 330);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(58, 25);
             this.label2.TabIndex = 22;
@@ -150,52 +134,55 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(643, 434);
+            this.label3.Location = new System.Drawing.Point(328, 330);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(71, 25);
             this.label3.TabIndex = 23;
             this.label3.Text = "Orange";
             // 
-            // button1
+            // btnBlue
             // 
-            this.button1.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.button1.Location = new System.Drawing.Point(367, 610);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(119, 34);
-            this.button1.TabIndex = 24;
-            this.button1.Text = "Select";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnBlue.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.btnBlue.Location = new System.Drawing.Point(52, 506);
+            this.btnBlue.Name = "btnBlue";
+            this.btnBlue.Size = new System.Drawing.Size(119, 34);
+            this.btnBlue.TabIndex = 24;
+            this.btnBlue.Text = "Select";
+            this.btnBlue.UseVisualStyleBackColor = false;
+            this.btnBlue.Click += new System.EventHandler(this.btnBlue_Click);
             // 
-            // button2
+            // btnGreen
             // 
-            this.button2.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.button2.Location = new System.Drawing.Point(492, 610);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(122, 34);
-            this.button2.TabIndex = 25;
-            this.button2.Text = "Select";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnGreen.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.btnGreen.Location = new System.Drawing.Point(177, 506);
+            this.btnGreen.Name = "btnGreen";
+            this.btnGreen.Size = new System.Drawing.Size(122, 34);
+            this.btnGreen.TabIndex = 25;
+            this.btnGreen.Text = "Select";
+            this.btnGreen.UseVisualStyleBackColor = false;
+            this.btnGreen.Click += new System.EventHandler(this.btnGreen_Click);
             // 
-            // button3
+            // btnOrange
             // 
-            this.button3.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.button3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button3.Location = new System.Drawing.Point(620, 610);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(122, 34);
-            this.button3.TabIndex = 26;
-            this.button3.Text = "Select";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnOrange.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.btnOrange.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnOrange.Location = new System.Drawing.Point(305, 506);
+            this.btnOrange.Name = "btnOrange";
+            this.btnOrange.Size = new System.Drawing.Size(122, 34);
+            this.btnOrange.TabIndex = 26;
+            this.btnOrange.Text = "Select";
+            this.btnOrange.UseVisualStyleBackColor = false;
+            this.btnOrange.Click += new System.EventHandler(this.btnOrange_Click);
             // 
             // SettingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
-            this.ClientSize = new System.Drawing.Size(1106, 942);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(497, 581);
+            this.Controls.Add(this.btnOrange);
+            this.Controls.Add(this.btnGreen);
+            this.Controls.Add(this.btnBlue);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -203,7 +190,6 @@
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.btnDash);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnQuit);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -223,7 +209,6 @@
 
         private Button btnQuit;
         private PictureBox pictureBox1;
-        private Button btnDash;
         private PictureBox pictureBox2;
         private PictureBox pictureBox3;
         private PictureBox pictureBox4;
@@ -231,8 +216,8 @@
         private Label label1;
         private Label label2;
         private Label label3;
-        private Button button1;
-        private Button button2;
-        private Button button3;
+        private Button btnBlue;
+        private Button btnGreen;
+        private Button btnOrange;
     }
 }
