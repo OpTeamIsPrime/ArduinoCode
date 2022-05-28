@@ -52,3 +52,4 @@ C:\Users\rpuig\Desktop\Ecole\Projet\ArduinoCode\Applications\IsPrimeAppV4\IsPrim
 C:\Users\rpuig\Desktop\Ecole\Projet\ArduinoCode\Applications\IsPrimeAppV4\IsPrimeAppV4\obj\Debug\net6.0-windows\IsPrimeAppV4.FormCamBase.resources
 C:\Users\rpuig\Desktop\Ecole\Projet\ArduinoCode\Applications\IsPrimeAppV4\IsPrimeAppV4\obj\Debug\net6.0-windows\IsPrimeAppV4.SettingForm.resources
 C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\IsPrimeAppV4\IsPrimeAppV4\obj\Debug\net6.0-windows\IsPrimeAppV4.SettingForm.resources
+C:\Users\rpuig\Desktop\Ecole\Projet\ArduinoCode\Applications\IsPrimeAppV4\IsPrimeAppV4\obj\Debug\net6.0-windows\IsPrimeAppV4.IsPrimeFunction.resources

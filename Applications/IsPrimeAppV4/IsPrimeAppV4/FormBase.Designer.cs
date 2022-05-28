@@ -68,9 +68,10 @@
             this.brnQuit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.brnQuit.FlatAppearance.BorderSize = 0;
             this.brnQuit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.brnQuit.Location = new System.Drawing.Point(911, 12);
+            this.brnQuit.Location = new System.Drawing.Point(1301, 20);
+            this.brnQuit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.brnQuit.Name = "brnQuit";
-            this.brnQuit.Size = new System.Drawing.Size(28, 23);
+            this.brnQuit.Size = new System.Drawing.Size(40, 38);
             this.brnQuit.TabIndex = 4;
             this.brnQuit.UseVisualStyleBackColor = true;
             // 
@@ -79,9 +80,10 @@
             this.txtBoxPassword.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtBoxPassword.Location = new System.Drawing.Point(240, 284);
+            this.txtBoxPassword.Location = new System.Drawing.Point(343, 473);
+            this.txtBoxPassword.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtBoxPassword.Name = "txtBoxPassword";
-            this.txtBoxPassword.Size = new System.Drawing.Size(269, 23);
+            this.txtBoxPassword.Size = new System.Drawing.Size(383, 31);
             this.txtBoxPassword.TabIndex = 5;
             // 
             // btnPassword
@@ -91,9 +93,10 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnPassword.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnPassword.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnPassword.Location = new System.Drawing.Point(515, 278);
+            this.btnPassword.Location = new System.Drawing.Point(736, 463);
+            this.btnPassword.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnPassword.Name = "btnPassword";
-            this.btnPassword.Size = new System.Drawing.Size(118, 30);
+            this.btnPassword.Size = new System.Drawing.Size(169, 50);
             this.btnPassword.TabIndex = 6;
             this.btnPassword.Text = "Accept";
             this.btnPassword.UseVisualStyleBackColor = true;
@@ -104,9 +107,10 @@
             this.lbPassword.AutoSize = true;
             this.lbPassword.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbPassword.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lbPassword.Location = new System.Drawing.Point(273, 261);
+            this.lbPassword.Location = new System.Drawing.Point(390, 435);
+            this.lbPassword.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbPassword.Name = "lbPassword";
-            this.lbPassword.Size = new System.Drawing.Size(190, 20);
+            this.lbPassword.Size = new System.Drawing.Size(286, 28);
             this.lbPassword.TabIndex = 7;
             this.lbPassword.Text = "Enter the password given";
             // 
@@ -115,17 +119,19 @@
             this.lbAccess.AutoSize = true;
             this.lbAccess.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbAccess.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lbAccess.Location = new System.Drawing.Point(183, 349);
+            this.lbAccess.Location = new System.Drawing.Point(261, 582);
+            this.lbAccess.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbAccess.Name = "lbAccess";
-            this.lbAccess.Size = new System.Drawing.Size(361, 22);
+            this.lbAccess.Size = new System.Drawing.Size(537, 29);
             this.lbAccess.TabIndex = 9;
             this.lbAccess.Text = "You have the full access of the IsPrime Project";
             // 
             // txtUser
             // 
-            this.txtUser.Location = new System.Drawing.Point(240, 424);
+            this.txtUser.Location = new System.Drawing.Point(343, 707);
+            this.txtUser.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtUser.Name = "txtUser";
-            this.txtUser.Size = new System.Drawing.Size(246, 23);
+            this.txtUser.Size = new System.Drawing.Size(350, 31);
             this.txtUser.TabIndex = 10;
             // 
             // lbUser1
@@ -133,9 +139,10 @@
             this.lbUser1.AutoSize = true;
             this.lbUser1.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbUser1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lbUser1.Location = new System.Drawing.Point(294, 401);
+            this.lbUser1.Location = new System.Drawing.Point(420, 668);
+            this.lbUser1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbUser1.Name = "lbUser1";
-            this.lbUser1.Size = new System.Drawing.Size(135, 20);
+            this.lbUser1.Size = new System.Drawing.Size(203, 28);
             this.lbUser1.TabIndex = 11;
             this.lbUser1.Text = "Enter a username";
             // 
@@ -146,9 +153,10 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnUser.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnUser.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnUser.Location = new System.Drawing.Point(492, 417);
+            this.btnUser.Location = new System.Drawing.Point(703, 695);
+            this.btnUser.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnUser.Name = "btnUser";
-            this.btnUser.Size = new System.Drawing.Size(118, 32);
+            this.btnUser.Size = new System.Drawing.Size(169, 53);
             this.btnUser.TabIndex = 12;
             this.btnUser.Text = "Accept";
             this.btnUser.UseVisualStyleBackColor = true;
@@ -165,8 +173,9 @@
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(177, 565);
+            this.panel1.Size = new System.Drawing.Size(253, 942);
             this.panel1.TabIndex = 13;
             // 
             // btnAI
@@ -174,9 +183,10 @@
             this.btnAI.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnAI.FlatAppearance.BorderSize = 0;
             this.btnAI.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAI.Location = new System.Drawing.Point(0, 177);
+            this.btnAI.Location = new System.Drawing.Point(0, 295);
+            this.btnAI.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnAI.Name = "btnAI";
-            this.btnAI.Size = new System.Drawing.Size(177, 52);
+            this.btnAI.Size = new System.Drawing.Size(253, 87);
             this.btnAI.TabIndex = 8;
             this.btnAI.Text = "AIMode";
             this.btnAI.UseVisualStyleBackColor = true;
@@ -189,9 +199,10 @@
             this.btnDash.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDash.Image = ((System.Drawing.Image)(resources.GetObject("btnDash.Image")));
             this.btnDash.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDash.Location = new System.Drawing.Point(0, 117);
+            this.btnDash.Location = new System.Drawing.Point(0, 195);
+            this.btnDash.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnDash.Name = "btnDash";
-            this.btnDash.Size = new System.Drawing.Size(177, 60);
+            this.btnDash.Size = new System.Drawing.Size(253, 100);
             this.btnDash.TabIndex = 7;
             this.btnDash.Text = "Dashboard";
             this.btnDash.UseVisualStyleBackColor = true;
@@ -202,9 +213,10 @@
             this.panelManual.BackColor = System.Drawing.Color.LavenderBlush;
             this.panelManual.Controls.Add(this.button4);
             this.panelManual.Controls.Add(this.button5);
-            this.panelManual.Location = new System.Drawing.Point(0, 401);
+            this.panelManual.Location = new System.Drawing.Point(0, 668);
+            this.panelManual.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panelManual.Name = "panelManual";
-            this.panelManual.Size = new System.Drawing.Size(177, 114);
+            this.panelManual.Size = new System.Drawing.Size(253, 190);
             this.panelManual.TabIndex = 6;
             // 
             // button4
@@ -214,9 +226,10 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(0, 55);
+            this.button4.Location = new System.Drawing.Point(0, 92);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(177, 55);
+            this.button4.Size = new System.Drawing.Size(253, 92);
             this.button4.TabIndex = 1;
             this.button4.Text = "Settings";
             this.button4.UseVisualStyleBackColor = true;
@@ -230,8 +243,9 @@
             this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
             this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button5.Location = new System.Drawing.Point(0, 0);
+            this.button5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(177, 55);
+            this.button5.Size = new System.Drawing.Size(253, 92);
             this.button5.TabIndex = 0;
             this.button5.Text = "Launch Robot";
             this.button5.UseVisualStyleBackColor = true;
@@ -243,9 +257,10 @@
             this.btnManual.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnManual.Image = ((System.Drawing.Image)(resources.GetObject("btnManual.Image")));
             this.btnManual.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnManual.Location = new System.Drawing.Point(0, 346);
+            this.btnManual.Location = new System.Drawing.Point(0, 577);
+            this.btnManual.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnManual.Name = "btnManual";
-            this.btnManual.Size = new System.Drawing.Size(177, 55);
+            this.btnManual.Size = new System.Drawing.Size(253, 92);
             this.btnManual.TabIndex = 5;
             this.btnManual.Text = "         Manual Mode";
             this.btnManual.UseVisualStyleBackColor = true;
@@ -256,9 +271,10 @@
             this.panelAI.BackColor = System.Drawing.Color.AliceBlue;
             this.panelAI.Controls.Add(this.button2);
             this.panelAI.Controls.Add(this.button1);
-            this.panelAI.Location = new System.Drawing.Point(0, 224);
+            this.panelAI.Location = new System.Drawing.Point(0, 373);
+            this.panelAI.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panelAI.Name = "panelAI";
-            this.panelAI.Size = new System.Drawing.Size(177, 119);
+            this.panelAI.Size = new System.Drawing.Size(253, 198);
             this.panelAI.TabIndex = 3;
             // 
             // button2
@@ -268,9 +284,10 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(0, 59);
+            this.button2.Location = new System.Drawing.Point(0, 98);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(177, 57);
+            this.button2.Size = new System.Drawing.Size(253, 95);
             this.button2.TabIndex = 1;
             this.button2.Text = "Settings";
             this.button2.UseVisualStyleBackColor = true;
@@ -284,8 +301,9 @@
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.Location = new System.Drawing.Point(0, 0);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(177, 59);
+            this.button1.Size = new System.Drawing.Size(253, 98);
             this.button1.TabIndex = 0;
             this.button1.Text = "Launch Robot";
             this.button1.UseVisualStyleBackColor = true;
@@ -296,19 +314,22 @@
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(177, 117);
+            this.pictureBox1.Size = new System.Drawing.Size(253, 195);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.CornflowerBlue;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(177, 465);
+            this.panel2.Location = new System.Drawing.Point(253, 775);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(774, 100);
+            this.panel2.Size = new System.Drawing.Size(1106, 167);
             this.panel2.TabIndex = 14;
             // 
             // panel4
@@ -327,26 +348,29 @@
             this.panel4.Controls.Add(this.txtBoxPassword);
             this.panel4.Controls.Add(this.brnQuit);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(177, 0);
+            this.panel4.Location = new System.Drawing.Point(253, 0);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(774, 565);
+            this.panel4.Size = new System.Drawing.Size(1106, 942);
             this.panel4.TabIndex = 3;
             // 
             // labelUser
             // 
             this.labelUser.AutoSize = true;
-            this.labelUser.Location = new System.Drawing.Point(86, 9);
+            this.labelUser.Location = new System.Drawing.Point(123, 15);
+            this.labelUser.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelUser.Name = "labelUser";
-            this.labelUser.Size = new System.Drawing.Size(37, 15);
+            this.labelUser.Size = new System.Drawing.Size(57, 25);
             this.labelUser.TabIndex = 16;
             this.labelUser.Text = "Guest";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 9);
+            this.label1.Location = new System.Drawing.Point(9, 15);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(74, 15);
+            this.label1.Size = new System.Drawing.Size(113, 25);
             this.label1.TabIndex = 15;
             this.label1.Text = "USERNAME :";
             // 
@@ -354,9 +378,10 @@
             // 
             this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox2.Location = new System.Drawing.Point(240, 49);
+            this.pictureBox2.Location = new System.Drawing.Point(343, 82);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(315, 180);
+            this.pictureBox2.Size = new System.Drawing.Size(450, 300);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 14;
             this.pictureBox2.TabStop = false;
@@ -367,24 +392,26 @@
             this.btnQuit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnQuit.FlatAppearance.BorderSize = 0;
             this.btnQuit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnQuit.Location = new System.Drawing.Point(724, 12);
+            this.btnQuit.Location = new System.Drawing.Point(1034, 20);
+            this.btnQuit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnQuit.Name = "btnQuit";
-            this.btnQuit.Size = new System.Drawing.Size(34, 30);
+            this.btnQuit.Size = new System.Drawing.Size(49, 50);
             this.btnQuit.TabIndex = 13;
             this.btnQuit.UseVisualStyleBackColor = true;
             this.btnQuit.Click += new System.EventHandler(this.button3_Click);
             // 
             // FormBase
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(951, 565);
+            this.ClientSize = new System.Drawing.Size(1359, 942);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FormBase";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";

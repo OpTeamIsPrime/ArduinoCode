@@ -10,6 +10,9 @@
     <Compile Update="FormCamBase.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="IsPrimeFunction.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="SettingForm.cs">
       <SubType>Form</SubType>
     </Compile>

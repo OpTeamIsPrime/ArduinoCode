@@ -109,5 +109,11 @@ namespace IsPrimeAppV4
             SettingForm form = new SettingForm();
             form.Show();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            IsPrimeFunction form = new IsPrimeFunction();
+            form.Show();
+        }
     }
 }
