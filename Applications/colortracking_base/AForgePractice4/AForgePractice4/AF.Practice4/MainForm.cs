@@ -46,7 +46,7 @@ namespace AF.Practice4
             {
                 if (!ActivateColorTracking)
                 {
-                    var clone = (Bitmap)bitmap.Clone();
+                    var clone = (Bitmap)bitmap.Clone();//renvoit juste l'image de base
                     pbOrjinalimage.Image = clone;
                     return;
                 }
@@ -123,7 +123,7 @@ namespace AF.Practice4
         }
         private void showOrjinalOrProcessImageToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ShowOrjinalOrProcessImage = showOrjinalOrProcessImageToolStripMenuItem.Checked;
+            ShowOrjinalOrProcessImage = showOrjinalOrProcessImageToolStripMenuItem.Checked;//active la reconnaissance
         }
         private void multiOrSingleTrackingToolStripMenuItem_Click(object sender, EventArgs e)
         {

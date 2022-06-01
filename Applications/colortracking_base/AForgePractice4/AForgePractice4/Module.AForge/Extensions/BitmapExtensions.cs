@@ -9,11 +9,11 @@ namespace Module.AForge.Extensions
     {
         public static Bitmap EuclideanFilter(this Bitmap source, Color color, short radius = 100)
         {
-            var image = (Bitmap)source.Clone();
+            var image = (Bitmap)source.Clone();//https://csharpdoc.hotexamples.com/class/AForge.Imaging.Filters/EuclideanColorFiltering
             var filter =
                 new EuclideanColorFiltering
                 {
-                    CenterColor = new RGB(Color.FromArgb(color.R, color.G, color.B)),
+                    CenterColor = new RGB(Color.FromArgb(color.R, color.G, color.B)),//ARGB = alpha red green blue
                     Radius = radius
                 };
 
@@ -22,8 +22,9 @@ namespace Module.AForge.Extensions
         }
         public static Bitmap FindObjectsOnFiltered(this Bitmap source, Color penColor, int minObjectWidth = 5, int minObjectHeight = 5, bool multiple = false)
         {
-            var image = (Bitmap)source.Clone();
-            BlobCounter blobCounter = new BlobCounter
+            var image = (Bitmap)source.Clone();//recupere l'image a analyser
+            BlobCounter blobCounter = new BlobCounter//permet de compter des objet dans une image qui est séparé par un font noir voir :
+                                                     //https://csharp.hotexamples.com/fr/examples/AForge.Imaging/BlobCounter/-/php-blobcounter-class-examples.html
             {
                 MinWidth = minObjectWidth,
                 MinHeight = minObjectHeight,
@@ -41,11 +42,11 @@ namespace Module.AForge.Extensions
 
             if (rects.Length <= 0) return source;
 
-            Graphics g = Graphics.FromImage(source);
+            Graphics g = Graphics.FromImage(source);//cree un éléments graphique sur notre retour vidéo 
             for (int i = 0; rects.Length > i; i++)
             {
                 Rectangle objectRect = rects[i];
-                using (Pen pen = new Pen(Color.FromArgb(penColor.R, penColor.G, penColor.B), 2))
+                using (Pen pen = new Pen(Color.FromArgb(penColor.R, penColor.G, penColor.B), 2))//dessine un rectangle sur l'image pour delimiter l'objet
                 {
                     g.DrawRectangle(pen, objectRect);
 
