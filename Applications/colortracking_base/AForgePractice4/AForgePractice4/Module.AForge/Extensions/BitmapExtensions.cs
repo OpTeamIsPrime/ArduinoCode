@@ -22,6 +22,9 @@ namespace Module.AForge.Extensions
         }
         public static Bitmap FindObjectsOnFiltered(this Bitmap source, Color penColor, int minObjectWidth = 5, int minObjectHeight = 5, bool multiple = false)
         {
+            /*
+             * recherche des objet avec l'image de la caméra en arriere plan
+             */
             var image = (Bitmap)source.Clone();//recupere l'image a analyser
             BlobCounter blobCounter = new BlobCounter//permet de compter des objet dans une image qui est séparé par un font noir voir :
                                                      //https://csharp.hotexamples.com/fr/examples/AForge.Imaging/BlobCounter/-/php-blobcounter-class-examples.html
@@ -64,6 +67,9 @@ namespace Module.AForge.Extensions
         }
         public static Bitmap FindObjectsOnOrjinal(this Bitmap source, Color penColor, Color filterColor, short filterRadius = 100, int minObjectWidth = 5, int minObjectHeight = 5, bool multiple = false)
         {
+            /*
+             * recherche des objet sans l'image de la caméra en arriere plan
+            */
             var fake = (Bitmap)source.Clone();
             var image = fake.EuclideanFilter(filterColor, filterRadius);
             var orj = (Bitmap)source.Clone();

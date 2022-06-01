@@ -112,7 +112,7 @@ namespace AF.Practice4
         #endregion Camera Menu        
 
         #region Image Process Menu
-        private void colorTrackingToolStripMenuItem_Click(object sender, EventArgs e)
+        private void colorTrackingToolStripMenuItem_Click(object sender, EventArgs e)//lance le Form de parametrage de couleur
         {
             var frmSetColor = (FrmSetColor)Application.OpenForms["FrmSetColor"];
             frmSetColor?.Focus();
@@ -123,9 +123,9 @@ namespace AF.Practice4
         }
         private void showOrjinalOrProcessImageToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ShowOrjinalOrProcessImage = showOrjinalOrProcessImageToolStripMenuItem.Checked;//active la reconnaissance
+            ShowOrjinalOrProcessImage = showOrjinalOrProcessImageToolStripMenuItem.Checked;//active la reconnaissance avec ou sans l'image d'origine
         }
-        private void multiOrSingleTrackingToolStripMenuItem_Click(object sender, EventArgs e)
+        private void multiOrSingleTrackingToolStripMenuItem_Click(object sender, EventArgs e)//fais plusieurs carré sur la reconnaissance
         {
             MultiOrSingleTracking = multiOrSingleTrackingToolStripMenuItem.Checked;
         }

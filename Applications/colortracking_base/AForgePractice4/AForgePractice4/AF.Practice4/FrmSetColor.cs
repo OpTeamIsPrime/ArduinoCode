@@ -13,7 +13,7 @@ namespace AF.Practice4
             InitializeComponent();
             CheckForIllegalCrossThreadCalls = false;
 
-            chkActivePassive.Checked = _mainForm.ActivateColorTracking;
+            chkActivePassive.Checked = _mainForm.ActivateColorTracking;//active la reconnaissance
             redTrackBar.Value = _mainForm.Red;
             greenTrackBar.Value = _mainForm.Green;
             blueTrackBar.Value = _mainForm.Blue;
