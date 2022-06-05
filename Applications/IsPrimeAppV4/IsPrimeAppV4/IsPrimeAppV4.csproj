@@ -18,6 +18,7 @@
     <PackageReference Include="AForge.Imaging" Version="2.2.5" />
     <PackageReference Include="AForge.Video" Version="2.2.5" />
     <PackageReference Include="AForge.Video.DirectShow" Version="2.2.5" />
+    <PackageReference Include="Iot.Device.Bindings" Version="2.1.0" />
     <PackageReference Include="SolidSoils.Arduino.Client" Version="1.1.1" />
   </ItemGroup>
 

@@ -13,6 +13,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Solid.Arduino;
 using Solid.Arduino.Firmata;
+using Iot.Device.Arduino;
 
 namespace IsPrimeAppV4
 {
@@ -27,6 +28,9 @@ namespace IsPrimeAppV4
         public Keys Right = Keys.D;
         public Keys Left = Keys.Q;
         public Keys Grab = Keys.Space;
+
+
+
         public ManualForm()
         {
             InitializeComponent();
@@ -34,6 +38,7 @@ namespace IsPrimeAppV4
         FilterInfoCollection filterInfoCollection;
         VideoCaptureDevice videoCaptureDevice;
         public IFirmataProtocol Session = null;
+        public ArduinoSession cession = null;
         private Color GetCol()
         {
             Color acc = Color.Orange;
@@ -99,6 +104,12 @@ namespace IsPrimeAppV4
             videoCaptureDevice = new VideoCaptureDevice();
         }
 
+        public void activationservo(ArduinoSession session)
+        {
+            session.ConfigureServo(8, 0, 360);
+            session.SetDigitalPin(8, true);
+        }
+
         private void btnStart_Click(object sender, EventArgs e)
         {
             videoCaptureDevice = new VideoCaptureDevice(filterInfoCollection[cboCamera.SelectedIndex].MonikerString);
@@ -115,6 +126,7 @@ namespace IsPrimeAppV4
             {
                 lbArduino.Text = ($"Connected to port {connection.PortName} at {connection.BaudRate} baud.");
                 Session = new ArduinoSession(connection);
+                cession = new ArduinoSession(connection);
             }
             ArduinoInit(Session);
         }
@@ -184,6 +196,14 @@ namespace IsPrimeAppV4
             session.SetDigitalPin(7, false);
         }
 
+        private static void ArduinoServo(IFirmataProtocol session)//function to stop the movements of the robot
+        {
+            session.SetDigitalPin(4, false);
+            session.SetDigitalPin(5, false);
+            session.SetDigitalPin(6, false);
+            session.SetDigitalPin(7, false);
+        }
+
         private void btnBlue_Click(object sender, EventArgs e)
         {
             Blue = true;
@@ -231,6 +251,10 @@ namespace IsPrimeAppV4
             if (e.KeyCode == Keys.Q)
             {
                 ArduinoMovementsLeft(Session);
+            }
+            if (e.KeyCode == Keys.Space)
+            {
+                activationservo(cession);
             }
         }
 

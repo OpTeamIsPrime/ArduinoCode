@@ -64,3 +64,11 @@ C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applicatio
 C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\IsPrimeAppV4\IsPrimeAppV4\bin\Debug\net6.0-windows\runtimes\linux\lib\netstandard2.0\System.IO.Ports.dll
 C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\IsPrimeAppV4\IsPrimeAppV4\bin\Debug\net6.0-windows\runtimes\osx\lib\netstandard2.0\System.IO.Ports.dll
 C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\IsPrimeAppV4\IsPrimeAppV4\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.IO.Ports.dll
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\IsPrimeAppV4\IsPrimeAppV4\bin\Debug\net6.0-windows\Iot.Device.Bindings.dll
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\IsPrimeAppV4\IsPrimeAppV4\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\IsPrimeAppV4\IsPrimeAppV4\bin\Debug\net6.0-windows\SixLabors.ImageSharp.dll
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\IsPrimeAppV4\IsPrimeAppV4\bin\Debug\net6.0-windows\System.Device.Gpio.dll
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\IsPrimeAppV4\IsPrimeAppV4\bin\Debug\net6.0-windows\System.Management.dll
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\IsPrimeAppV4\IsPrimeAppV4\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\IsPrimeAppV4\IsPrimeAppV4\bin\Debug\net6.0-windows\UnitsNet.dll
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\IsPrimeAppV4\IsPrimeAppV4\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.0\System.Management.dll
