@@ -83,6 +83,7 @@
             this.txtBoxPassword.Name = "txtBoxPassword";
             this.txtBoxPassword.Size = new System.Drawing.Size(269, 23);
             this.txtBoxPassword.TabIndex = 5;
+            this.txtBoxPassword.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtBoxPassword_KeyDown);
             // 
             // btnPassword
             // 
@@ -93,7 +94,7 @@
             this.btnPassword.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnPassword.Location = new System.Drawing.Point(515, 278);
             this.btnPassword.Name = "btnPassword";
-            this.btnPassword.Size = new System.Drawing.Size(118, 30);
+            this.btnPassword.Size = new System.Drawing.Size(115, 29);
             this.btnPassword.TabIndex = 6;
             this.btnPassword.Text = "Accept";
             this.btnPassword.UseVisualStyleBackColor = true;
@@ -368,9 +369,9 @@
             this.btnQuit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnQuit.FlatAppearance.BorderSize = 0;
             this.btnQuit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnQuit.Location = new System.Drawing.Point(724, 12);
+            this.btnQuit.Location = new System.Drawing.Point(716, 12);
             this.btnQuit.Name = "btnQuit";
-            this.btnQuit.Size = new System.Drawing.Size(34, 30);
+            this.btnQuit.Size = new System.Drawing.Size(42, 39);
             this.btnQuit.TabIndex = 13;
             this.btnQuit.UseVisualStyleBackColor = true;
             this.btnQuit.Click += new System.EventHandler(this.button3_Click);

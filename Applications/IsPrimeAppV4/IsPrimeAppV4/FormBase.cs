@@ -44,7 +44,7 @@ namespace IsPrimeAppV4
 
         private void button9_Click_1(object sender, EventArgs e)
         {
-            if (txtBoxPassword.Text == "IsPrimeProject")
+            if (txtBoxPassword.Text == "A")
             { 
            
                 btnPassword.Visible = false;
@@ -94,7 +94,7 @@ namespace IsPrimeAppV4
 
         private void button5_Click(object sender, EventArgs e)
         {
-            FormCamBase form = new FormCamBase();
+            ManualForm form = new ManualForm();
             form.Show();
         }
 
@@ -115,6 +115,14 @@ namespace IsPrimeAppV4
         {
             IsPrimeFunction form = new IsPrimeFunction();
             form.Show();
+        }
+
+        private void txtBoxPassword_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode == Keys.Enter)
+            {
+                btnPassword.Focus();
+            }
         }
     }
 }

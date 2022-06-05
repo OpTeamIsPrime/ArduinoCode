@@ -2,7 +2,6 @@ C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applicatio
 C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\IsPrimeAppV4\IsPrimeAppV4\bin\Debug\net6.0-windows\IsPrimeAppV4.deps.json
 C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\IsPrimeAppV4\IsPrimeAppV4\bin\Debug\net6.0-windows\IsPrimeAppV4.runtimeconfig.json
 C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\IsPrimeAppV4\IsPrimeAppV4\bin\Debug\net6.0-windows\IsPrimeAppV4.dll
-C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\IsPrimeAppV4\IsPrimeAppV4\bin\Debug\net6.0-windows\ref\IsPrimeAppV4.dll
 C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\IsPrimeAppV4\IsPrimeAppV4\bin\Debug\net6.0-windows\IsPrimeAppV4.pdb
 C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\IsPrimeAppV4\IsPrimeAppV4\obj\Debug\net6.0-windows\IsPrimeAppV4.csproj.AssemblyReference.cache
 C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\IsPrimeAppV4\IsPrimeAppV4\obj\Debug\net6.0-windows\IsPrimeAppV4.Properties.Resources.resources
@@ -54,3 +53,14 @@ C:\Users\rpuig\Desktop\Ecole\Projet\ArduinoCode\Applications\IsPrimeAppV4\IsPrim
 C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\IsPrimeAppV4\IsPrimeAppV4\obj\Debug\net6.0-windows\IsPrimeAppV4.SettingForm.resources
 C:\Users\rpuig\Desktop\Ecole\Projet\ArduinoCode\Applications\IsPrimeAppV4\IsPrimeAppV4\obj\Debug\net6.0-windows\IsPrimeAppV4.IsPrimeFunction.resources
 C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\IsPrimeAppV4\IsPrimeAppV4\obj\Debug\net6.0-windows\IsPrimeAppV4.IsPrimeFunction.resources
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\IsPrimeAppV4\IsPrimeAppV4\obj\Debug\net6.0-windows\IsPrimeAppV4.ManualForm.resources
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\IsPrimeAppV4\IsPrimeAppV4\obj\Debug\net6.0-windows\refint\IsPrimeAppV4.dll
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\IsPrimeAppV4\IsPrimeAppV4\bin\Debug\net6.0-windows\Solid.Arduino.dll
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\IsPrimeAppV4\IsPrimeAppV4\bin\Debug\net6.0-windows\System.IO.Ports.dll
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\IsPrimeAppV4\IsPrimeAppV4\bin\Debug\net6.0-windows\runtimes\linux-arm\native\libSystem.IO.Ports.Native.so
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\IsPrimeAppV4\IsPrimeAppV4\bin\Debug\net6.0-windows\runtimes\linux-arm64\native\libSystem.IO.Ports.Native.so
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\IsPrimeAppV4\IsPrimeAppV4\bin\Debug\net6.0-windows\runtimes\linux-x64\native\libSystem.IO.Ports.Native.so
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\IsPrimeAppV4\IsPrimeAppV4\bin\Debug\net6.0-windows\runtimes\osx-x64\native\libSystem.IO.Ports.Native.dylib
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\IsPrimeAppV4\IsPrimeAppV4\bin\Debug\net6.0-windows\runtimes\linux\lib\netstandard2.0\System.IO.Ports.dll
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\IsPrimeAppV4\IsPrimeAppV4\bin\Debug\net6.0-windows\runtimes\osx\lib\netstandard2.0\System.IO.Ports.dll
+C:\Users\Lepoisson300\Desktop\Ecole\Epita Sup 1\Projet S2\ArduinoCode\Applications\IsPrimeAppV4\IsPrimeAppV4\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.IO.Ports.dll

@@ -31,20 +31,19 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SettingForm));
             this.btnQuit = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.labeltextcolor = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.btnBlue = new System.Windows.Forms.Button();
-            this.btnGreen = new System.Windows.Forms.Button();
-            this.btnOrange = new System.Windows.Forms.Button();
+            this.btnAccept = new System.Windows.Forms.Button();
+            this.txtForward = new System.Windows.Forms.TextBox();
+            this.txtRight = new System.Windows.Forms.TextBox();
+            this.txtBack = new System.Windows.Forms.TextBox();
+            this.txtLeft = new System.Windows.Forms.TextBox();
+            this.txtGrab = new System.Windows.Forms.TextBox();
+            this.lbForward = new System.Windows.Forms.Label();
+            this.lbRight = new System.Windows.Forms.Label();
+            this.lbLeft = new System.Windows.Forms.Label();
+            this.lbBack = new System.Windows.Forms.Label();
+            this.lbGrab = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // btnQuit
@@ -53,10 +52,9 @@
             this.btnQuit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnQuit.FlatAppearance.BorderSize = 0;
             this.btnQuit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnQuit.Location = new System.Drawing.Point(435, 14);
-            this.btnQuit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnQuit.Location = new System.Drawing.Point(304, 8);
             this.btnQuit.Name = "btnQuit";
-            this.btnQuit.Size = new System.Drawing.Size(49, 50);
+            this.btnQuit.Size = new System.Drawing.Size(34, 30);
             this.btnQuit.TabIndex = 14;
             this.btnQuit.UseVisualStyleBackColor = true;
             this.btnQuit.Click += new System.EventHandler(this.btnQuit_Click);
@@ -64,142 +62,141 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(13, 14);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox1.Location = new System.Drawing.Point(9, 8);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(253, 195);
+            this.pictureBox1.Size = new System.Drawing.Size(177, 117);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 15;
             this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(52, 375);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(119, 108);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 17;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(177, 375);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(122, 108);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 18;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(305, 375);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(122, 108);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 19;
-            this.pictureBox4.TabStop = false;
             // 
             // labeltextcolor
             // 
             this.labeltextcolor.AutoSize = true;
             this.labeltextcolor.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labeltextcolor.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.labeltextcolor.Location = new System.Drawing.Point(75, 264);
+            this.labeltextcolor.Location = new System.Drawing.Point(46, 137);
+            this.labeltextcolor.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labeltextcolor.Name = "labeltextcolor";
-            this.labeltextcolor.Size = new System.Drawing.Size(324, 29);
+            this.labeltextcolor.Size = new System.Drawing.Size(261, 22);
             this.labeltextcolor.TabIndex = 20;
-            this.labeltextcolor.Text = "Choose a color for the cube";
+            this.labeltextcolor.Text = "Choose a Keys for the commands";
             // 
-            // label1
+            // btnAccept
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(89, 330);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(45, 25);
-            this.label1.TabIndex = 21;
-            this.label1.Text = "Blue";
+            this.btnAccept.Location = new System.Drawing.Point(213, 316);
+            this.btnAccept.Name = "btnAccept";
+            this.btnAccept.Size = new System.Drawing.Size(75, 23);
+            this.btnAccept.TabIndex = 21;
+            this.btnAccept.Text = "Accept";
+            this.btnAccept.UseVisualStyleBackColor = true;
+            this.btnAccept.Click += new System.EventHandler(this.btnAccept_Click);
             // 
-            // label2
+            // txtForward
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(208, 330);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 25);
-            this.label2.TabIndex = 22;
-            this.label2.Text = "Green";
+            this.txtForward.Location = new System.Drawing.Point(188, 162);
+            this.txtForward.Name = "txtForward";
+            this.txtForward.Size = new System.Drawing.Size(100, 23);
+            this.txtForward.TabIndex = 22;
             // 
-            // label3
+            // txtRight
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(328, 330);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(71, 25);
-            this.label3.TabIndex = 23;
-            this.label3.Text = "Orange";
+            this.txtRight.Location = new System.Drawing.Point(188, 191);
+            this.txtRight.Name = "txtRight";
+            this.txtRight.Size = new System.Drawing.Size(100, 23);
+            this.txtRight.TabIndex = 23;
             // 
-            // btnBlue
+            // txtBack
             // 
-            this.btnBlue.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.btnBlue.Location = new System.Drawing.Point(52, 506);
-            this.btnBlue.Name = "btnBlue";
-            this.btnBlue.Size = new System.Drawing.Size(119, 34);
-            this.btnBlue.TabIndex = 24;
-            this.btnBlue.Text = "Select";
-            this.btnBlue.UseVisualStyleBackColor = false;
-            this.btnBlue.Click += new System.EventHandler(this.btnBlue_Click);
+            this.txtBack.Location = new System.Drawing.Point(188, 249);
+            this.txtBack.Name = "txtBack";
+            this.txtBack.Size = new System.Drawing.Size(100, 23);
+            this.txtBack.TabIndex = 24;
             // 
-            // btnGreen
+            // txtLeft
             // 
-            this.btnGreen.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.btnGreen.Location = new System.Drawing.Point(177, 506);
-            this.btnGreen.Name = "btnGreen";
-            this.btnGreen.Size = new System.Drawing.Size(122, 34);
-            this.btnGreen.TabIndex = 25;
-            this.btnGreen.Text = "Select";
-            this.btnGreen.UseVisualStyleBackColor = false;
-            this.btnGreen.Click += new System.EventHandler(this.btnGreen_Click);
+            this.txtLeft.Location = new System.Drawing.Point(188, 220);
+            this.txtLeft.Name = "txtLeft";
+            this.txtLeft.Size = new System.Drawing.Size(100, 23);
+            this.txtLeft.TabIndex = 25;
             // 
-            // btnOrange
+            // txtGrab
             // 
-            this.btnOrange.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.btnOrange.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnOrange.Location = new System.Drawing.Point(305, 506);
-            this.btnOrange.Name = "btnOrange";
-            this.btnOrange.Size = new System.Drawing.Size(122, 34);
-            this.btnOrange.TabIndex = 26;
-            this.btnOrange.Text = "Select";
-            this.btnOrange.UseVisualStyleBackColor = false;
-            this.btnOrange.Click += new System.EventHandler(this.btnOrange_Click);
+            this.txtGrab.Location = new System.Drawing.Point(188, 278);
+            this.txtGrab.Name = "txtGrab";
+            this.txtGrab.Size = new System.Drawing.Size(100, 23);
+            this.txtGrab.TabIndex = 26;
+            // 
+            // lbForward
+            // 
+            this.lbForward.AutoSize = true;
+            this.lbForward.Location = new System.Drawing.Point(43, 165);
+            this.lbForward.Name = "lbForward";
+            this.lbForward.Size = new System.Drawing.Size(145, 15);
+            this.lbForward.TabIndex = 27;
+            this.lbForward.Text = "Move Forward(current : Z)";
+            // 
+            // lbRight
+            // 
+            this.lbRight.AutoSize = true;
+            this.lbRight.Location = new System.Drawing.Point(46, 194);
+            this.lbRight.Name = "lbRight";
+            this.lbRight.Size = new System.Drawing.Size(131, 15);
+            this.lbRight.TabIndex = 28;
+            this.lbRight.Text = "Move Right(current : D)";
+            // 
+            // lbLeft
+            // 
+            this.lbLeft.AutoSize = true;
+            this.lbLeft.Location = new System.Drawing.Point(46, 223);
+            this.lbLeft.Name = "lbLeft";
+            this.lbLeft.Size = new System.Drawing.Size(124, 15);
+            this.lbLeft.TabIndex = 29;
+            this.lbLeft.Text = "Move Left(current : Q)";
+            // 
+            // lbBack
+            // 
+            this.lbBack.AutoSize = true;
+            this.lbBack.Location = new System.Drawing.Point(46, 252);
+            this.lbBack.Name = "lbBack";
+            this.lbBack.Size = new System.Drawing.Size(126, 15);
+            this.lbBack.TabIndex = 30;
+            this.lbBack.Text = "Move Back(current : S)";
+            // 
+            // lbGrab
+            // 
+            this.lbGrab.AutoSize = true;
+            this.lbGrab.Location = new System.Drawing.Point(46, 281);
+            this.lbGrab.Name = "lbGrab";
+            this.lbGrab.Size = new System.Drawing.Size(138, 15);
+            this.lbGrab.TabIndex = 31;
+            this.lbGrab.Text = "Grab(current : Space Bar)";
             // 
             // SettingForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
-            this.ClientSize = new System.Drawing.Size(497, 581);
-            this.Controls.Add(this.btnOrange);
-            this.Controls.Add(this.btnGreen);
-            this.Controls.Add(this.btnBlue);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(348, 349);
+            this.Controls.Add(this.lbGrab);
+            this.Controls.Add(this.lbBack);
+            this.Controls.Add(this.lbLeft);
+            this.Controls.Add(this.lbRight);
+            this.Controls.Add(this.lbForward);
+            this.Controls.Add(this.txtGrab);
+            this.Controls.Add(this.txtLeft);
+            this.Controls.Add(this.txtBack);
+            this.Controls.Add(this.txtRight);
+            this.Controls.Add(this.txtForward);
+            this.Controls.Add(this.btnAccept);
             this.Controls.Add(this.labeltextcolor);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnQuit);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "SettingForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SettingForm";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -209,15 +206,17 @@
 
         private Button btnQuit;
         private PictureBox pictureBox1;
-        private PictureBox pictureBox2;
-        private PictureBox pictureBox3;
-        private PictureBox pictureBox4;
         private Label labeltextcolor;
-        private Label label1;
-        private Label label2;
-        private Label label3;
-        private Button btnBlue;
-        private Button btnGreen;
-        private Button btnOrange;
+        private Button btnAccept;
+        private TextBox txtForward;
+        private TextBox txtRight;
+        private TextBox txtBack;
+        private TextBox txtLeft;
+        private TextBox txtGrab;
+        private Label lbForward;
+        private Label lbRight;
+        private Label lbLeft;
+        private Label lbBack;
+        private Label lbGrab;
     }
 }

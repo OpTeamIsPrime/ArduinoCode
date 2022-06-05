@@ -13,6 +13,9 @@
     <Compile Update="IsPrimeFunction.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="ManualForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="SettingForm.cs">
       <SubType>Form</SubType>
     </Compile>

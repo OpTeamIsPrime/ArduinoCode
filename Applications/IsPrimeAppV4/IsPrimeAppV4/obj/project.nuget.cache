@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Qxmw+X4HkIZ0cbu2UgDbOKCDFy4T+yjuNJWgHRrIxnFalngu7hIY+deA3ahUSGekk5l80C6na7B0YHYg2i13Dw==",
+  "dgSpecHash": "3uljT8TJ5XpUjFSByLGnCmIT7Wfxqe0zdMHkSfpOlilGEcYJDgb5tx+d1vY3ObRmFbsvanULzyP1mudc8BYPRA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lepoisson300\\Desktop\\Ecole\\Epita Sup 1\\Projet S2\\ArduinoCode\\Applications\\IsPrimeAppV4\\IsPrimeAppV4\\IsPrimeAppV4.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,18 @@
     "C:\\Users\\Lepoisson300\\.nuget\\packages\\aforge.imaging\\2.2.5\\aforge.imaging.2.2.5.nupkg.sha512",
     "C:\\Users\\Lepoisson300\\.nuget\\packages\\aforge.math\\2.2.5\\aforge.math.2.2.5.nupkg.sha512",
     "C:\\Users\\Lepoisson300\\.nuget\\packages\\aforge.video\\2.2.5\\aforge.video.2.2.5.nupkg.sha512",
-    "C:\\Users\\Lepoisson300\\.nuget\\packages\\aforge.video.directshow\\2.2.5\\aforge.video.directshow.2.2.5.nupkg.sha512"
+    "C:\\Users\\Lepoisson300\\.nuget\\packages\\aforge.video.directshow\\2.2.5\\aforge.video.directshow.2.2.5.nupkg.sha512",
+    "C:\\Users\\Lepoisson300\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\Lepoisson300\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "C:\\Users\\Lepoisson300\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\5.0.0\\runtime.linux-arm.runtime.native.system.io.ports.5.0.0.nupkg.sha512",
+    "C:\\Users\\Lepoisson300\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\5.0.0\\runtime.linux-arm64.runtime.native.system.io.ports.5.0.0.nupkg.sha512",
+    "C:\\Users\\Lepoisson300\\.nuget\\packages\\runtime.linux-x64.runtime.native.system.io.ports\\5.0.0\\runtime.linux-x64.runtime.native.system.io.ports.5.0.0.nupkg.sha512",
+    "C:\\Users\\Lepoisson300\\.nuget\\packages\\runtime.native.system.io.ports\\5.0.1\\runtime.native.system.io.ports.5.0.1.nupkg.sha512",
+    "C:\\Users\\Lepoisson300\\.nuget\\packages\\runtime.osx-x64.runtime.native.system.io.ports\\5.0.0\\runtime.osx-x64.runtime.native.system.io.ports.5.0.0.nupkg.sha512",
+    "C:\\Users\\Lepoisson300\\.nuget\\packages\\solidsoils.arduino.client\\1.1.1\\solidsoils.arduino.client.1.1.1.nupkg.sha512",
+    "C:\\Users\\Lepoisson300\\.nuget\\packages\\system.io.ports\\5.0.1\\system.io.ports.5.0.1.nupkg.sha512",
+    "C:\\Users\\Lepoisson300\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\Lepoisson300\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512"
   ],
   "logs": [
     {

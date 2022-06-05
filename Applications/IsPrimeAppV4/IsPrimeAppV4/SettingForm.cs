@@ -12,11 +12,21 @@ namespace IsPrimeAppV4
 {
     public partial class SettingForm : Form
     {
-        private readonly FormCamBase _mainForm = (FormCamBase)Application.OpenForms["MainForm"];
+        private readonly ManualForm _mainForm = (ManualForm)Application.OpenForms["ManualForm"];
 
         public SettingForm()
         {
             InitializeComponent();
+            Keys forward = Keys.Z;
+            Keys back = Keys.S;
+            Keys right = Keys.D;
+            Keys left = Keys.Q;
+            Keys grab = Keys.Space;
+            forward = _mainForm.Forward;
+            back = _mainForm.Forward;
+            right = _mainForm.Forward;
+            left = _mainForm.Forward;
+            grab = _mainForm.Forward;
         }
 
         private void btnQuit_Click(object sender, EventArgs e)
@@ -24,20 +34,9 @@ namespace IsPrimeAppV4
             this.Close();
         }
 
-        private void btnBlue_Click(object sender, EventArgs e)
+        private void btnAccept_Click(object sender, EventArgs e)
         {
-            _mainForm.Blue = true;
-
-        }
-
-        private void btnGreen_Click(object sender, EventArgs e)
-        {
-            _mainForm.Green = true;
-        }
-
-        private void btnOrange_Click(object sender, EventArgs e)
-        {
-            _mainForm.Red = true;
+            
         }
     }
 }
