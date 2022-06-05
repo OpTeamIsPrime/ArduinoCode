@@ -163,9 +163,9 @@ namespace IsPrimeAppV4
         private static void ArduinoMovementsRight(IFirmataProtocol session)//function to start the movements of the robot
         {
             session.SetDigitalPin(4, true);
-            session.SetDigitalPin(5, true);
-            session.SetDigitalPin(6, true);
-            session.SetDigitalPin(7, false);
+            session.SetDigitalPin(5, false);
+            session.SetDigitalPin(6, false);
+            session.SetDigitalPin(7, true);
 
         }
         private static void ArduinoMovementsLeft(IFirmataProtocol session)//function to start the movements of the robot
@@ -173,7 +173,7 @@ namespace IsPrimeAppV4
             session.SetDigitalPin(4, false);
             session.SetDigitalPin(5, true);
             session.SetDigitalPin(6, true);
-            session.SetDigitalPin(7, true);
+            session.SetDigitalPin(7, false);
 
         }
         private static void ArduinoMovementsStop(IFirmataProtocol session)//function to stop the movements of the robot
