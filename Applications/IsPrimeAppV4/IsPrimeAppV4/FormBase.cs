@@ -44,7 +44,7 @@ namespace IsPrimeAppV4
 
         private void button9_Click_1(object sender, EventArgs e)
         {
-            if (txtBoxPassword.Text == "A")
+            if (txtBoxPassword.Text == "IsPrimeProject")
             { 
            
                 btnPassword.Visible = false;
@@ -122,6 +122,14 @@ namespace IsPrimeAppV4
             if(e.KeyCode == Keys.Enter)
             {
                 btnPassword.Focus();
+            }
+        }
+
+        private void txtUser_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                labelUser.Text = txtUser.Text;
             }
         }
     }

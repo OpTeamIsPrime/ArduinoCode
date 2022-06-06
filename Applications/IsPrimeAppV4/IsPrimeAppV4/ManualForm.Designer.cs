@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ManualForm));
-            this.btnQuit = new System.Windows.Forms.Button();
             this.pic = new System.Windows.Forms.PictureBox();
             this.btnStop = new System.Windows.Forms.Button();
             this.btnStart = new System.Windows.Forms.Button();
@@ -55,27 +54,16 @@
             this.label6 = new System.Windows.Forms.Label();
             this.lbArduino = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnQuit
-            // 
-            this.btnQuit.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnQuit.BackgroundImage")));
-            this.btnQuit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnQuit.FlatAppearance.BorderSize = 0;
-            this.btnQuit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnQuit.Location = new System.Drawing.Point(1080, 12);
-            this.btnQuit.Name = "btnQuit";
-            this.btnQuit.Size = new System.Drawing.Size(42, 39);
-            this.btnQuit.TabIndex = 14;
-            this.btnQuit.UseVisualStyleBackColor = true;
-            this.btnQuit.Click += new System.EventHandler(this.btnQuit_Click);
-            // 
             // pic
             // 
+            this.pic.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pic.Image = ((System.Drawing.Image)(resources.GetObject("pic.Image")));
             this.pic.Location = new System.Drawing.Point(-1, -2);
             this.pic.Name = "pic";
@@ -173,7 +161,7 @@
             // lbGrab
             // 
             this.lbGrab.AutoSize = true;
-            this.lbGrab.Location = new System.Drawing.Point(986, 215);
+            this.lbGrab.Location = new System.Drawing.Point(986, 238);
             this.lbGrab.Name = "lbGrab";
             this.lbGrab.Size = new System.Drawing.Size(92, 15);
             this.lbGrab.TabIndex = 25;
@@ -333,12 +321,22 @@
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(986, 213);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(48, 15);
+            this.label7.TabIndex = 49;
+            this.label7.Text = "Stop : A";
+            // 
             // ManualForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(1134, 573);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lbArduino);
             this.Controls.Add(this.label6);
@@ -364,8 +362,7 @@
             this.Controls.Add(this.cboCamera);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pic);
-            this.Controls.Add(this.btnQuit);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ManualForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ManualForm";
@@ -380,8 +377,6 @@
         }
 
         #endregion
-
-        private Button btnQuit;
         private PictureBox pic;
         private Button btnStop;
         private Button btnStart;
@@ -407,5 +402,6 @@
         private Label label6;
         private Label lbArduino;
         private TextBox textBox1;
+        private Label label7;
     }
 }

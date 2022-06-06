@@ -35,7 +35,6 @@
             this.button2 = new System.Windows.Forms.Button();
             this.pic = new System.Windows.Forms.PictureBox();
             this.brnQuit = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.btnOrange = new System.Windows.Forms.Button();
             this.btnGreen = new System.Windows.Forms.Button();
             this.btnBlue = new System.Windows.Forms.Button();
@@ -114,19 +113,6 @@
             this.brnQuit.Size = new System.Drawing.Size(28, 23);
             this.brnQuit.TabIndex = 5;
             this.brnQuit.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(1040, 12);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(28, 23);
-            this.button3.TabIndex = 6;
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.Button3_Click);
             // 
             // btnOrange
             // 
@@ -249,14 +235,12 @@
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.button3);
             this.Controls.Add(this.brnQuit);
             this.Controls.Add(this.pic);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.cboCamera);
             this.Controls.Add(this.label1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormCamBase";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

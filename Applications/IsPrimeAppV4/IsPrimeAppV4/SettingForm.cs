@@ -17,16 +17,6 @@ namespace IsPrimeAppV4
         public SettingForm()
         {
             InitializeComponent();
-            Keys forward = Keys.Z;
-            Keys back = Keys.S;
-            Keys right = Keys.D;
-            Keys left = Keys.Q;
-            Keys grab = Keys.Space;
-            forward = _mainForm.Forward;
-            back = _mainForm.Forward;
-            right = _mainForm.Forward;
-            left = _mainForm.Forward;
-            grab = _mainForm.Forward;
         }
 
         private void btnQuit_Click(object sender, EventArgs e)

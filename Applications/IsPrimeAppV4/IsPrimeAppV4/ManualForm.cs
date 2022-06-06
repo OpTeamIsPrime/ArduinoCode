@@ -203,6 +203,33 @@ namespace IsPrimeAppV4
             session.SetDigitalPin(6, false);
             session.SetDigitalPin(7, false);
         }
+        private void Attraper_pince(ArduinoSession session)
+        {
+            session.SetDigitalPinMode(10, PinMode.DigitalOutput);
+            session.ConfigureServo(10, 0, 360);
+            session.SetDigitalPinMode(11, PinMode.DigitalOutput);
+            session.ConfigureServo(11, 0, 360);
+            session.SetDigitalPinMode(12, PinMode.DigitalOutput);
+            session.ConfigureServo(12, 0, 360);
+
+            session.SetDigitalPin(12, 140);
+            Thread.Sleep(2000);
+
+            session.SetDigitalPin(10, 0);
+            Thread.Sleep(2000);
+            session.SetDigitalPin(11, 0);
+            Thread.Sleep(2000);
+            session.SetDigitalPin(12, 140);
+            Thread.Sleep(2000);
+
+
+            session.SetDigitalPin(12, 180);
+            Thread.Sleep(2000);
+            session.SetDigitalPin(11, 180);
+            Thread.Sleep(2000);
+            session.SetDigitalPin(10, 180);
+            Thread.Sleep(2000);
+        }
 
         private void btnBlue_Click(object sender, EventArgs e)
         {
@@ -254,7 +281,7 @@ namespace IsPrimeAppV4
             }
             if (e.KeyCode == Keys.Space)
             {
-                activationservo(cession);
+                Attraper_pince(cession);
             }
         }
 
