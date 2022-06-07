@@ -20,16 +20,18 @@ namespace IsPrimeAppV4
     
     public partial class ManualForm : Form
     {
+
         public bool Red;
         public bool Green;
         public bool Blue;
-        public Keys Forward = Keys.Z;
-        public Keys Back = Keys.S;
-        public Keys Right = Keys.D;
-        public Keys Left = Keys.Q;
-        public Keys Grab = Keys.Space;
+       
 
-
+        public Keys forward { get; set; }
+        public Keys back { get; set; }
+        public Keys right { get; set; }
+        public Keys left { get; set; }
+        public Keys grab { get; set; }
+        public Keys stop { get; set; }
 
         public ManualForm()
         {
@@ -95,6 +97,7 @@ namespace IsPrimeAppV4
         }
         private void Form2_Load(object sender, EventArgs e)
         {
+            
             filterInfoCollection = new FilterInfoCollection(FilterCategory.VideoInputDevice);
             foreach (FilterInfo filterInfo in filterInfoCollection)
             {
@@ -259,29 +262,35 @@ namespace IsPrimeAppV4
 
         private void textBox1_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Z)
+            if (e.KeyCode == forward)
             {
-                ArduinoMovementsForward(Session);
+                //ArduinoMovementsForward(Session);
+                lbArduino.Text = "Forward";
             }
-            if (e.KeyCode == Keys.A)
+            if (e.KeyCode == stop)
             {
-                ArduinoMovementsStop(Session);
+                //ArduinoMovementsStop(Session);
+                lbArduino.Text = "Stop";
             }
-            if (e.KeyCode == Keys.S)
+            if (e.KeyCode == back)
             {
-                ArduinoMovementsBack(Session);
+                //ArduinoMovementsBack(Session);
+                lbArduino.Text = "Back";
             }
-            if (e.KeyCode == Keys.D)
+            if (e.KeyCode == right)
             {
-                ArduinoMovementsRight(Session);
+                //ArduinoMovementsRight(Session);
+                lbArduino.Text = "Right";
             }
-            if (e.KeyCode == Keys.Q)
+            if (e.KeyCode == left)
             {
-                ArduinoMovementsLeft(Session);
+                //ArduinoMovementsLeft(Session);
+                lbArduino.Text = "Left";
             }
-            if (e.KeyCode == Keys.Space)
+            if (e.KeyCode == grab)
             {
-                Attraper_pince(cession);
+                //Attraper_pince(cession);
+                lbArduino.Text = "Grab";
             }
         }
 

@@ -43,6 +43,15 @@
             this.lbLeft = new System.Windows.Forms.Label();
             this.lbBack = new System.Windows.Forms.Label();
             this.lbGrab = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.VForward = new System.Windows.Forms.Label();
+            this.VLeft = new System.Windows.Forms.Label();
+            this.VRight = new System.Windows.Forms.Label();
+            this.VBack = new System.Windows.Forms.Label();
+            this.VStop = new System.Windows.Forms.Label();
+            this.VGrab = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtStop = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -83,7 +92,7 @@
             // 
             // btnAccept
             // 
-            this.btnAccept.Location = new System.Drawing.Point(213, 316);
+            this.btnAccept.Location = new System.Drawing.Point(261, 345);
             this.btnAccept.Name = "btnAccept";
             this.btnAccept.Size = new System.Drawing.Size(75, 23);
             this.btnAccept.TabIndex = 21;
@@ -97,6 +106,7 @@
             this.txtForward.Name = "txtForward";
             this.txtForward.Size = new System.Drawing.Size(100, 23);
             this.txtForward.TabIndex = 22;
+            this.txtForward.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtForward_KeyDown);
             // 
             // txtRight
             // 
@@ -104,6 +114,7 @@
             this.txtRight.Name = "txtRight";
             this.txtRight.Size = new System.Drawing.Size(100, 23);
             this.txtRight.TabIndex = 23;
+            this.txtRight.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtRight_KeyDown);
             // 
             // txtBack
             // 
@@ -111,6 +122,7 @@
             this.txtBack.Name = "txtBack";
             this.txtBack.Size = new System.Drawing.Size(100, 23);
             this.txtBack.TabIndex = 24;
+            this.txtBack.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtBack_KeyDown);
             // 
             // txtLeft
             // 
@@ -118,65 +130,157 @@
             this.txtLeft.Name = "txtLeft";
             this.txtLeft.Size = new System.Drawing.Size(100, 23);
             this.txtLeft.TabIndex = 25;
+            this.txtLeft.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtLeft_KeyDown);
             // 
             // txtGrab
             // 
-            this.txtGrab.Location = new System.Drawing.Point(188, 278);
+            this.txtGrab.Location = new System.Drawing.Point(188, 275);
             this.txtGrab.Name = "txtGrab";
             this.txtGrab.Size = new System.Drawing.Size(100, 23);
             this.txtGrab.TabIndex = 26;
+            this.txtGrab.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtGrab_KeyDown);
             // 
             // lbForward
             // 
             this.lbForward.AutoSize = true;
-            this.lbForward.Location = new System.Drawing.Point(43, 165);
+            this.lbForward.Location = new System.Drawing.Point(14, 165);
             this.lbForward.Name = "lbForward";
-            this.lbForward.Size = new System.Drawing.Size(145, 15);
+            this.lbForward.Size = new System.Drawing.Size(139, 15);
             this.lbForward.TabIndex = 27;
-            this.lbForward.Text = "Move Forward(current : Z)";
+            this.lbForward.Text = "Move Forward,  current : ";
             // 
             // lbRight
             // 
             this.lbRight.AutoSize = true;
-            this.lbRight.Location = new System.Drawing.Point(46, 194);
+            this.lbRight.Location = new System.Drawing.Point(14, 194);
             this.lbRight.Name = "lbRight";
-            this.lbRight.Size = new System.Drawing.Size(131, 15);
+            this.lbRight.Size = new System.Drawing.Size(121, 15);
             this.lbRight.TabIndex = 28;
-            this.lbRight.Text = "Move Right(current : D)";
+            this.lbRight.Text = "Move Right, current : ";
             // 
             // lbLeft
             // 
             this.lbLeft.AutoSize = true;
-            this.lbLeft.Location = new System.Drawing.Point(46, 223);
+            this.lbLeft.Location = new System.Drawing.Point(14, 223);
             this.lbLeft.Name = "lbLeft";
-            this.lbLeft.Size = new System.Drawing.Size(124, 15);
+            this.lbLeft.Size = new System.Drawing.Size(113, 15);
             this.lbLeft.TabIndex = 29;
-            this.lbLeft.Text = "Move Left(current : Q)";
+            this.lbLeft.Text = "Move Left, current : ";
             // 
             // lbBack
             // 
             this.lbBack.AutoSize = true;
-            this.lbBack.Location = new System.Drawing.Point(46, 252);
+            this.lbBack.Location = new System.Drawing.Point(14, 252);
             this.lbBack.Name = "lbBack";
-            this.lbBack.Size = new System.Drawing.Size(126, 15);
+            this.lbBack.Size = new System.Drawing.Size(118, 15);
             this.lbBack.TabIndex = 30;
-            this.lbBack.Text = "Move Back(current : S)";
+            this.lbBack.Text = "Move Back, current : ";
             // 
             // lbGrab
             // 
             this.lbGrab.AutoSize = true;
-            this.lbGrab.Location = new System.Drawing.Point(46, 281);
+            this.lbGrab.Location = new System.Drawing.Point(13, 278);
             this.lbGrab.Name = "lbGrab";
-            this.lbGrab.Size = new System.Drawing.Size(138, 15);
+            this.lbGrab.Size = new System.Drawing.Size(82, 15);
             this.lbGrab.TabIndex = 31;
-            this.lbGrab.Text = "Grab(current : Space Bar)";
+            this.lbGrab.Text = "Grab, current :";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.Red;
+            this.label1.Location = new System.Drawing.Point(12, 356);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(38, 15);
+            this.label1.TabIndex = 32;
+            this.label1.Text = "label1";
+            // 
+            // VForward
+            // 
+            this.VForward.AutoSize = true;
+            this.VForward.Location = new System.Drawing.Point(150, 165);
+            this.VForward.Name = "VForward";
+            this.VForward.Size = new System.Drawing.Size(36, 15);
+            this.VForward.TabIndex = 33;
+            this.VForward.Text = "None";
+            // 
+            // VLeft
+            // 
+            this.VLeft.AutoSize = true;
+            this.VLeft.Location = new System.Drawing.Point(150, 223);
+            this.VLeft.Name = "VLeft";
+            this.VLeft.Size = new System.Drawing.Size(36, 15);
+            this.VLeft.TabIndex = 34;
+            this.VLeft.Text = "None";
+            // 
+            // VRight
+            // 
+            this.VRight.AutoSize = true;
+            this.VRight.Location = new System.Drawing.Point(150, 194);
+            this.VRight.Name = "VRight";
+            this.VRight.Size = new System.Drawing.Size(36, 15);
+            this.VRight.TabIndex = 35;
+            this.VRight.Text = "None";
+            // 
+            // VBack
+            // 
+            this.VBack.AutoSize = true;
+            this.VBack.Location = new System.Drawing.Point(150, 249);
+            this.VBack.Name = "VBack";
+            this.VBack.Size = new System.Drawing.Size(36, 15);
+            this.VBack.TabIndex = 36;
+            this.VBack.Text = "None";
+            // 
+            // VStop
+            // 
+            this.VStop.AutoSize = true;
+            this.VStop.Location = new System.Drawing.Point(150, 307);
+            this.VStop.Name = "VStop";
+            this.VStop.Size = new System.Drawing.Size(36, 15);
+            this.VStop.TabIndex = 37;
+            this.VStop.Text = "None";
+            // 
+            // VGrab
+            // 
+            this.VGrab.AutoSize = true;
+            this.VGrab.Location = new System.Drawing.Point(150, 278);
+            this.VGrab.Name = "VGrab";
+            this.VGrab.Size = new System.Drawing.Size(36, 15);
+            this.VGrab.TabIndex = 38;
+            this.VGrab.Text = "None";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(14, 307);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(81, 15);
+            this.label2.TabIndex = 39;
+            this.label2.Text = "Stop, current :";
+            // 
+            // txtStop
+            // 
+            this.txtStop.Location = new System.Drawing.Point(188, 304);
+            this.txtStop.Name = "txtStop";
+            this.txtStop.Size = new System.Drawing.Size(100, 23);
+            this.txtStop.TabIndex = 40;
+            this.txtStop.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStop_KeyDown);
             // 
             // SettingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
-            this.ClientSize = new System.Drawing.Size(348, 349);
+            this.ClientSize = new System.Drawing.Size(348, 380);
+            this.Controls.Add(this.txtStop);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.VGrab);
+            this.Controls.Add(this.VStop);
+            this.Controls.Add(this.VBack);
+            this.Controls.Add(this.VRight);
+            this.Controls.Add(this.VLeft);
+            this.Controls.Add(this.VForward);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lbGrab);
             this.Controls.Add(this.lbBack);
             this.Controls.Add(this.lbLeft);
@@ -218,5 +322,14 @@
         private Label lbLeft;
         private Label lbBack;
         private Label lbGrab;
+        private Label label1;
+        private Label VForward;
+        private Label VLeft;
+        private Label VRight;
+        private Label VBack;
+        private Label VStop;
+        private Label VGrab;
+        private Label label2;
+        private TextBox txtStop;
     }
 }
